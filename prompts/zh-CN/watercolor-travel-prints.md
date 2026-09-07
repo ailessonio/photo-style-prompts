@@ -28,7 +28,7 @@
 
 | 原图 | 效果图 |
 | :---: | :---: |
-| <a href="https://ailesson.io/content-assets/sha256/f3/56/f35677c8ff98057e3afbcafd4339e1e882dd4cc29bf068fa079a2f8c58bbbe4b.png"><img src="https://ailesson.io/content-assets/sha256/f3/56/f35677c8ff98057e3afbcafd4339e1e882dd4cc29bf068fa079a2f8c58bbbe4b.png" alt="AI 生成的虚构照片：蓝调时刻的湖畔木屋、栈桥与雪山。" width="320"></a> | <a href="https://ailesson.io/content-assets/sha256/01/5d/015dc54d62ec2fe26f45b9dc60ceeed65fbd130c0099c57542d6c38750ff8586.png"><img src="https://ailesson.io/content-assets/sha256/01/5d/015dc54d62ec2fe26f45b9dc60ceeed65fbd130c0099c57542d6c38750ff8586.png" alt="蓝灰色水彩湖景小画，左侧为雪山，右侧为亮着暖光的木屋，四周留有宽阔象牙色纸面。" width="320"></a> |
+| <a href="https://ailesson.io/content-assets/sha256/f3/56/f35677c8ff98057e3afbcafd4339e1e882dd4cc29bf068fa079a2f8c58bbbe4b.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/f3/56/f35677c8ff98057e3afbcafd4339e1e882dd4cc29bf068fa079a2f8c58bbbe4b.png" alt="AI 生成的虚构照片：蓝调时刻的湖畔木屋、栈桥与雪山。" width="320"></a> | <a href="https://ailesson.io/content-assets/sha256/01/5d/015dc54d62ec2fe26f45b9dc60ceeed65fbd130c0099c57542d6c38750ff8586.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/01/5d/015dc54d62ec2fe26f45b9dc60ceeed65fbd130c0099c57542d6c38750ff8586.png" alt="蓝灰色水彩湖景小画，左侧为雪山，右侧为亮着暖光的木屋，四周留有宽阔象牙色纸面。" width="320"></a> |
 
 AILesson · AI 生成的虚构参考照片
 

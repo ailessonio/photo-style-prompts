@@ -26,7 +26,7 @@
 
 | 原图 | 效果图 |
 | :---: | :---: |
-| <a href="https://ailesson.io/content-assets/sha256/40/30/4030559193d5c3911193c6375bda8d56b31796aaaedbd1e8c8ded0bd2b567abc.png"><img src="https://ailesson.io/content-assets/sha256/40/30/4030559193d5c3911193c6375bda8d56b31796aaaedbd1e8c8ded0bd2b567abc.png" alt="窗前透明玻璃瓶中的粉色郁金香，瓶口系有拉菲草结，旁边放着藤篮。" width="320"></a> | <a href="https://ailesson.io/content-assets/sha256/c0/27/c027013d73e6427621a58ecf113675664dfb43aa2f20d8ba7bf146b65a34aa87.png"><img src="https://ailesson.io/content-assets/sha256/c0/27/c027013d73e6427621a58ecf113675664dfb43aa2f20d8ba7bf146b65a34aa87.png" alt="蓝白影调的蓝晒风格静物，包含郁金香、玻璃花瓶与藤篮。" width="320"></a> |
+| <a href="https://ailesson.io/content-assets/sha256/40/30/4030559193d5c3911193c6375bda8d56b31796aaaedbd1e8c8ded0bd2b567abc.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/40/30/4030559193d5c3911193c6375bda8d56b31796aaaedbd1e8c8ded0bd2b567abc.png" alt="窗前透明玻璃瓶中的粉色郁金香，瓶口系有拉菲草结，旁边放着藤篮。" width="320"></a> | <a href="https://ailesson.io/content-assets/sha256/c0/27/c027013d73e6427621a58ecf113675664dfb43aa2f20d8ba7bf146b65a34aa87.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/c0/27/c027013d73e6427621a58ecf113675664dfb43aa2f20d8ba7bf146b65a34aa87.png" alt="蓝白影调的蓝晒风格静物，包含郁金香、玻璃花瓶与藤篮。" width="320"></a> |
 
 [Wikimedia Commons / Jez Timms](https://commons.wikimedia.org/wiki/File:Rustic_tulip_vase_(Unsplash).jpg) · [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 

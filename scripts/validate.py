@@ -4,6 +4,7 @@ import concurrent.futures
 import re
 import sys
 import urllib.request
+import urllib.error
 from build import DATA, ROOT, outputs
 
 ids = [r['id'] for r in DATA]
@@ -39,6 +40,7 @@ for r in DATA:
     images(r)
 for path, expected in outputs():
     assert path.read_text() == expected, f'Rebuild {path}'
+    urls.update(re.findall(r'<img src="([^"]+)"', expected))
     for target in re.findall(r'\]\(([^)]+)\)', expected):
         if not target.startswith(('https:', '#')):
             assert (path.parent / target.split('#')[0]).exists(), (path, target)
@@ -47,11 +49,19 @@ for lang in ('', '/zh'):
 if '--online' in sys.argv:
     def check(url):
         request = urllib.request.Request(url, method='HEAD', headers={'User-Agent': 'AILesson-Photo-Style-Prompts-Link-Check/1.0'})
-        with urllib.request.urlopen(request, timeout=40) as response:
-            assert response.status == 200, (url, response.status)
-            if url.endswith('.png'):
-                assert response.headers.get_content_type() == 'image/png', url
-    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
-        list(pool.map(check, sorted(urls)))
+        for attempt in range(3):
+            try:
+                with urllib.request.urlopen(request, timeout=25) as response:
+                    assert response.status == 200, (url, response.status)
+                    if url.endswith('.png'):
+                        assert response.headers.get_content_type().startswith('image/'), url
+                return None
+            except (urllib.error.URLError, TimeoutError) as error:
+                if attempt == 2:
+                    return f'{url}: {error}'
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
+        failures = [result for result in pool.map(check, sorted(urls)) if result]
+    if failures:
+        raise SystemExit('Link checks failed:\n' + '\n'.join(failures))
     print(f'Checked {len(urls)} live page and image URLs.')
 print(f'Validated {len(DATA)} styles, {sum(len(r["examples"]) for r in DATA)} gallery images, bilingual prompts, references, and generated links.')

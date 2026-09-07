@@ -9,7 +9,8 @@ DATA = json.loads((ROOT / 'data/prompts.json').read_text())
 
 
 def image_link(image, lang, width=320):
-    return f'<a href="{image["src"]}"><img src="{image["src"]}" alt="{html.escape(image["alt"][lang], quote=True)}" width="{width}"></a>'
+    thumbnail = image["src"].replace("https://ailesson.io/", "https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/", 1)
+    return f'<a href="{image["src"]}"><img src="{thumbnail}" alt="{html.escape(image["alt"][lang], quote=True)}" width="{width}"></a>'
 
 
 def photo_credit(r, lang):

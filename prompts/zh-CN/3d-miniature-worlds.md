@@ -26,7 +26,7 @@
 
 | 原图 | 效果图 |
 | :---: | :---: |
-| <a href="https://ailesson.io/content-assets/sha256/ea/66/ea66fe51fe702cd080905fc1954c0dba73eab85b0489b9b2ac4a5a1ee7c2658c.png"><img src="https://ailesson.io/content-assets/sha256/ea/66/ea66fe51fe702cd080905fc1954c0dba73eab85b0489b9b2ac4a5a1ee7c2658c.png" alt="蓝色山湖左岸的红顶船屋，周围有松林与前景灌木。" width="320"></a> | <a href="https://ailesson.io/content-assets/sha256/8e/ad/8eaddfc7837080402cb0f8111802e4cb64cc4285a1310770110b939ae09a6242.png"><img src="https://ailesson.io/content-assets/sha256/8e/ad/8eaddfc7837080402cb0f8111802e4cb64cc4285a1310770110b939ae09a6242.png" alt="紧凑的三维风格山湖模型，含青绿湖水、瓷白山体、绿树和陶土红顶船屋。" width="320"></a> |
+| <a href="https://ailesson.io/content-assets/sha256/ea/66/ea66fe51fe702cd080905fc1954c0dba73eab85b0489b9b2ac4a5a1ee7c2658c.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/ea/66/ea66fe51fe702cd080905fc1954c0dba73eab85b0489b9b2ac4a5a1ee7c2658c.png" alt="蓝色山湖左岸的红顶船屋，周围有松林与前景灌木。" width="320"></a> | <a href="https://ailesson.io/content-assets/sha256/8e/ad/8eaddfc7837080402cb0f8111802e4cb64cc4285a1310770110b939ae09a6242.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/8e/ad/8eaddfc7837080402cb0f8111802e4cb64cc4285a1310770110b939ae09a6242.png" alt="紧凑的三维风格山湖模型，含青绿湖水、瓷白山体、绿树和陶土红顶船屋。" width="320"></a> |
 
 [Unsplash / Rafael Peier](https://unsplash.com/photos/mountain-lake-with-a-boathouse-and-surrounding-forest-I_XRy-z8m8k) · [Unsplash License](https://unsplash.com/license)
 
