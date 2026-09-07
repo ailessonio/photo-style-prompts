@@ -1,0 +1,18 @@
+name: Content feedback
+description: Report a prompt problem, broken image, translation issue, or propose a style.
+title: "[Content]: "
+body:
+  - type: input
+    id: style
+    attributes:
+      label: Style or URL
+      description: Which style, file, or page is affected?
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Describe the problem or proposal. For generation results, include the tool, prompt, and observed behavior. Do not include private information.
+    validations:
+      required: true

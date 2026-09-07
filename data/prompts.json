@@ -1,0 +1,2617 @@
+[
+  {
+    "id": "watercolor-travel-prints",
+    "alias": "turn-photos-into-watercolor-travel-prints",
+    "name": {
+      "en": "Watercolor Travel Print",
+      "zh": "留白水彩旅行画"
+    },
+    "summary": {
+      "en": "Repaint a familiar scene as a small watercolor vignette on ivory paper while keeping its key landmarks and viewpoint.",
+      "zh": "保留照片的关键景物与视角，将熟悉的场景画成象牙色纸面上的留白水彩小景。"
+    },
+    "updatedAt": "2026-09-07",
+    "variables": [
+      {
+        "key": "scene",
+        "label": {
+          "en": "Scene and essential landmarks",
+          "zh": "场景与关键景物"
+        },
+        "placeholder": {
+          "en": "A snow-capped mountain left of center, still lake and reflections, a dark timber boathouse with one warm window on the right, its jetty extending left, and evergreen trees behind it.",
+          "zh": "左侧偏中的雪山、平静湖面及倒影、右侧有一扇暖光窗户的深色木屋、向左延伸的栈桥，以及木屋后方的常绿树。"
+        },
+        "multiline": true
+      },
+      {
+        "key": "palette",
+        "label": {
+          "en": "Palette and mood",
+          "zh": "配色与氛围"
+        },
+        "placeholder": {
+          "en": "Muted cobalt and blue-gray with subdued evergreen and a small amber window glow; peaceful winter blue hour.",
+          "zh": "柔和钴蓝与蓝灰色，搭配低饱和常绿树色和一点琥珀色窗光；宁静的冬日蓝调时刻。"
+        },
+        "multiline": true
+      },
+      {
+        "key": "caption",
+        "label": {
+          "en": "Optional caption",
+          "zh": "可选题字"
+        },
+        "placeholder": {
+          "en": "NONE, or a short phrase such as Lake at dusk",
+          "zh": "NONE，或简短题字，如：湖畔暮色"
+        },
+        "multiline": false
+      }
+    ],
+    "template": {
+      "en": "Transform the attached scene photograph into a quiet watercolor travel print.\n\nScene and essential landmarks: {{scene}}\nPalette and mood: {{palette}}\nCaption: {{caption}}\n\nUse the uploaded photograph as the composition reference. Keep the original viewpoint, recognizable silhouettes, relative positions and depth relationships of the listed landmarks inside the painted scene. Simplify small details without inventing new objects. Repaint the scene with transparent watercolor washes, gentle pigment blooms, broken dry-brush accents and soft irregular edges on warm ivory paper with subtle visible grain. Let sky and water dissolve naturally into unpainted paper. Use restrained color and a small warm light accent; no heavy outlines, photographic textures or glossy 3D rendering.\n\nMake a square art print at least 1024 by 1024 pixels. Center a small unified scene occupying about 50–55% of the canvas width, leaving generous unpainted paper on every side. Do not fill the page with the original photograph or create a before-and-after collage. If Caption is NONE, add no text. Otherwise place only the supplied caption below the painting in small understated handwritten lettering; do not invent dates or extra lines. No frame, watermark or additional people, vehicles or buildings.",
+      "zh": "将上传的场景照片转化为宁静的水彩旅行画。\n\n场景与关键景物：{{scene}}\n配色与氛围：{{palette}}\n题字：{{caption}}\n\n以上传照片为构图参考。在画中的场景内部保留原始视角、可辨认的轮廓、所列景物的相对位置与远近关系。简化细节，不凭空增添物件。使用透明水彩薄涂、轻微颜料晕染、断续干笔和柔软不规则边缘，在带有细微可见纸纹的暖象牙色纸上重新绘制。让天空与水面自然淡入未着色纸面。配色克制，只留一小处暖光；无粗重描边、摄影纹理或亮面三维效果。\n\n输出至少 1024×1024 像素的方形艺术画。将完整的小场景居中，宽度约占画布的 50–55%，四周保留充足空白纸面。不把原照片铺满画布，不输出前后对比拼图。题字为 NONE 时不加任何文字；否则仅将提供的题字用小巧克制的手写字体放在画下，不编造日期或额外文字。不含画框、水印或新增的人物、车辆、建筑。"
+    },
+    "instructions": {
+      "en": "Upload a scene photo and fill in the variables. The included reference is an AI-generated fictional photo, not a real location or the original author’s image. The example uses the English template with that reference. Chinese and caption variants are untested. Fixed examples do not change as you type.",
+      "zh": "上传场景照片并填写变量。本页参考图为 AI 生成的虚构照片，并非真实地点或原作者图片。示例使用英文模板及该参考图生成；中文与题字变体尚未测试。固定示例不会随输入实时变化。"
+    },
+    "checks": [
+      {
+        "en": "Compare the result with the photo: are the key silhouettes, viewpoint and left/right relationships preserved?",
+        "zh": "对照原图：关键轮廓、视角与左右关系是否保留？"
+      },
+      {
+        "en": "Does the scene occupy roughly half the page width with visible ivory paper on all sides?",
+        "zh": "场景宽度是否约占页面一半，四周是否都有明显的象牙色纸面？"
+      },
+      {
+        "en": "Look for watercolor washes and irregular edges rather than a photo with a texture filter; check any caption character by character.",
+        "zh": "检查是否呈现水彩薄涂与不规则边缘，而非照片叠纹理滤镜；如有题字，逐字检查。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "lakeside",
+        "comparisonReferenceImageId": "lakeside-photo",
+        "title": {
+          "en": "Lakeside at blue hour",
+          "zh": "蓝调湖畔"
+        },
+        "input": {
+          "en": {
+            "scene": "A snow-capped mountain left of center, still lake and reflections, a dark timber boathouse with one warm window on the right, its jetty extending left, and evergreen trees behind it.",
+            "palette": "Muted cobalt and blue-gray with subdued evergreen and a small amber window glow; peaceful winter blue hour.",
+            "caption": "NONE"
+          },
+          "zh": {
+            "scene": "左侧偏中的雪山、平静湖面及倒影、右侧有一扇暖光窗户的深色木屋、向左延伸的栈桥，以及木屋后方的常绿树。",
+            "palette": "柔和钴蓝与蓝灰色，搭配低饱和常绿树色和一点琥珀色窗光；宁静的冬日蓝调时刻。",
+            "caption": "NONE"
+          }
+        },
+        "output": {
+          "src": "https://ailesson.io/content-assets/sha256/01/5d/015dc54d62ec2fe26f45b9dc60ceeed65fbd130c0099c57542d6c38750ff8586.png",
+          "alt": {
+            "en": "A small blue-gray watercolor lake scene with a mountain on the left and a warmly lit boathouse on the right, surrounded by wide ivory paper margins.",
+            "zh": "蓝灰色水彩湖景小画，左侧为雪山，右侧为亮着暖光的木屋，四周留有宽阔象牙色纸面。"
+          },
+          "width": 1254,
+          "height": 1254,
+          "mimeType": "image/png"
+        },
+        "source": {
+          "src": "https://ailesson.io/content-assets/sha256/01/5d/015dc54d62ec2fe26f45b9dc60ceeed65fbd130c0099c57542d6c38750ff8586.png",
+          "alt": {
+            "en": "A small blue-gray watercolor lake scene with a mountain on the left and a warmly lit boathouse on the right, surrounded by wide ivory paper margins.",
+            "zh": "蓝灰色水彩湖景小画，左侧为雪山，右侧为亮着暖光的木屋，四周留有宽阔象牙色纸面。"
+          },
+          "width": 1254,
+          "height": 1254,
+          "mimeType": "image/png"
+        },
+        "notes": {
+          "en": "The first watercolor draft filled too much of the page. A targeted edit reduced the scene to roughly half the canvas width; fine brush details changed slightly. The draft remains in the recipe assets.",
+          "zh": "水彩初稿画面占比过大。经定向编辑，场景缩小至约占画布宽度的一半；细微笔触有少量变化。初稿保留在配方资产目录。"
+        },
+        "generation": {
+          "tool": "Built-in image_gen",
+          "date": "2026-09-07",
+          "promptLanguage": "en",
+          "prompt": "Transform the attached scene photograph into a quiet watercolor travel print.\n\nScene and essential landmarks: A snow-capped mountain left of center, still lake and reflections, a dark timber boathouse with one warm window on the right, its jetty extending left, and evergreen trees behind it.\nPalette and mood: Muted cobalt and blue-gray with subdued evergreen and a small amber window glow; peaceful winter blue hour.\nCaption: NONE\n\nUse the uploaded photograph as the composition reference. Keep the original viewpoint, recognizable silhouettes, relative positions and depth relationships of the listed landmarks inside the painted scene. Simplify small details without inventing new objects. Repaint the scene with transparent watercolor washes, gentle pigment blooms, broken dry-brush accents and soft irregular edges on warm ivory paper with subtle visible grain. Let sky and water dissolve naturally into unpainted paper. Use restrained color and a small warm light accent; no heavy outlines, photographic textures or glossy 3D rendering.\n\nMake a square art print at least 1024 by 1024 pixels. Center a small unified scene occupying about 50–55% of the canvas width, leaving generous unpainted paper on every side. Do not fill the page with the original photograph or create a before-and-after collage. If Caption is NONE, add no text. Otherwise place only the supplied caption below the painting in small understated handwritten lettering; do not invent dates or extra lines. No frame, watermark or additional people, vehicles or buildings.",
+          "referenceImageIds": [
+            "lakeside-photo"
+          ],
+          "postprocessing": {
+            "en": "Copied the generated PNG without resizing, background removal or retouching.",
+            "zh": "直接复制生成 PNG，未缩放、抠图或修绘。"
+          },
+          "revisionPrompt": "Edit only the composition scale of this watercolor print. Preserve the entire existing painted lake, mountain, trees, jetty, house and reflections exactly as a unified scene, with the same watercolor treatment and colors. Reduce that complete painted scene to about 65% of its current width and height, centered on the same square canvas. The final painted scene must occupy only 50–55% of the canvas width. Extend the warm ivory paper and its subtle texture seamlessly around it so all four margins are generous. Do not crop, add text, add objects, or alter the painting's internal spatial relationships."
+        }
+      }
+    ],
+    "references": [
+      {
+        "id": "lakeside-photo",
+        "image": {
+          "src": "https://ailesson.io/content-assets/sha256/f3/56/f35677c8ff98057e3afbcafd4339e1e882dd4cc29bf068fa079a2f8c58bbbe4b.png",
+          "alt": {
+            "en": "AI-generated fictional photograph of a lakeside boathouse, jetty and snow-capped mountain at blue hour.",
+            "zh": "AI 生成的虚构照片：蓝调时刻的湖畔木屋、栈桥与雪山。"
+          },
+          "width": 1254,
+          "height": 1254,
+          "mimeType": "image/png"
+        },
+        "required": true
+      }
+    ],
+    "citations": [
+      {
+        "id": "visual-inspiration",
+        "claim": {
+          "en": "Alina Ai’s post and first prompt reply inspired the photo-to-watercolor workflow and small-scene paper composition. This reusable prompt and example scene were authored independently.",
+          "zh": "Alina Ai 的帖子及第一条提示语回复为照片转水彩流程与小景纸面构图提供参考。本配方的通用提示语与示例场景独立制作。"
+        },
+        "source": {
+          "title": "Photo-to-watercolor travel print examples and prompt",
+          "publisher": "Alina Ai",
+          "url": "https://x.com/Alina_with_Ai/status/2096555280306000120",
+          "reviewedAt": "2026-09-07"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hand-painted-anime-scenes",
+    "alias": "turn-photos-into-hand-painted-anime-scenes",
+    "name": {
+      "en": "Hand-painted anime scene",
+      "zh": "手绘动画场景"
+    },
+    "summary": {
+      "en": "Keep a coastal view recognizable while repainting it with luminous gouache-like shapes and layered depth.",
+      "zh": "保留海岸风景的辨识度，用明亮水粉色块与分层景深将照片重绘为动画背景。"
+    },
+    "updatedAt": "2026-09-07",
+    "variables": [
+      {
+        "key": "subject",
+        "label": {
+          "en": "Essential elements",
+          "zh": "必须保留的元素"
+        },
+        "placeholder": {
+          "en": "The descending golden meadow, dark green trees on the left, small beach near the center, hillside village on the right, and broad bay with a distant headland.",
+          "zh": "向下延伸的金色草坡、左侧深绿树丛、中央附近的小海滩、右侧山坡村庄，以及宽阔海湾与远处岬角。"
+        },
+        "multiline": true
+      },
+      {
+        "key": "palette",
+        "label": {
+          "en": "Palette and mood",
+          "zh": "配色与氛围"
+        },
+        "placeholder": {
+          "en": "Soft summer greens, straw gold, pale turquoise water and a luminous blue sky; a peaceful afternoon.",
+          "zh": "柔和夏绿、麦秆金、浅青绿海水与明亮蓝天，宁静的午后。"
+        },
+        "multiline": true
+      }
+    ],
+    "template": {
+      "en": "Transform the attached photo into a hand-painted anime scene.\n\nEssential elements: {{subject}}\nPalette and mood: {{palette}}\n\nRepaint as a hand-painted background for a 2D animated film. Use opaque gouache-like color masses, delicately drawn architectural contours, soft layered atmospheric depth and selective crisp highlights. Simplify the foreground grass into rhythmic brush shapes. Separate near, middle and far planes with value and temperature. Keep the village small within the landscape. Avoid photorealism, plastic 3D shading, heavy comic outlines and recognizable franchise motifs.\n\nUse the attached photograph as the only visual reference. Preserve its camera viewpoint, major silhouettes, relative positions, and recognizable subject. Simplify fine details without adding objects. Produce only the finished artwork, not a comparison, mockup or framed print. Keep the original landscape aspect ratio, at least 1400 pixels wide. No text, lettering, logos, signature or watermark; omit any signage visible in the photograph.",
+      "zh": "将上传照片转化为手绘动画场景。\n\n必须保留的元素：{{subject}}\n配色与氛围：{{palette}}\n\n重绘为二维动画电影的手绘背景。使用类似不透明水粉的色块、细致的建筑轮廓、柔和分层的空气透视与少量清晰高光。前景草地简化为有节奏的笔触形状，通过明度与冷暖区分近中远景。村庄在景观中保持较小比例。避免摄影质感、塑料三维光影、粗重漫画描边和可辨认的影视系列元素。\n\n以上传照片为唯一视觉参考，保留相机视角、主要轮廓、相对位置与可辨认的主体。简化细节，不添加物件。仅输出成品画作，不输出对比拼图、样机或带框印刷品。保持原图横向宽高比，宽度至少 1400 像素。不含文字、字母、标志、签名或水印；省略照片中原有的标牌文字。"
+    },
+    "instructions": {
+      "en": "Upload a photo and describe the elements to keep. Sample photo: Leticia Golubov, Unsplash License; source and license links are listed below. The example was generated from the English template. The Chinese version is untested. The displayed example does not change as you type.",
+      "zh": "上传照片并描述需要保留的元素。示例摄影：Leticia Golubov，采用 Unsplash License 授权；来源与许可链接见下方。示例使用英文模板生成，中文版本尚未测试。展示的示例不会随输入实时变化。"
+    },
+    "checks": [
+      {
+        "en": "Compare the main silhouette, viewpoint and left/right relationships with the uploaded photo.",
+        "zh": "对照上传照片，检查主要轮廓、视角与左右关系。"
+      },
+      {
+        "en": "Look for painted color masses and gentle architectural contours, with the village still small in the landscape.",
+        "zh": "检查是否呈现手绘色块与柔和建筑轮廓，村庄是否仍保持较小的画面占比。"
+      },
+      {
+        "en": "Inspect small features at full size and remove accidental lettering before sharing.",
+        "zh": "分享前放大检查细节，清除意外生成的文字。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "conversion",
+        "comparisonReferenceImageId": "photo",
+        "title": {
+          "en": "Coastal village",
+          "zh": "海湾村庄"
+        },
+        "input": {
+          "en": {
+            "subject": "The descending golden meadow, dark green trees on the left, small beach near the center, hillside village on the right, and broad bay with a distant headland.",
+            "palette": "Soft summer greens, straw gold, pale turquoise water and a luminous blue sky; a peaceful afternoon."
+          },
+          "zh": {
+            "subject": "向下延伸的金色草坡、左侧深绿树丛、中央附近的小海滩、右侧山坡村庄，以及宽阔海湾与远处岬角。",
+            "palette": "柔和夏绿、麦秆金、浅青绿海水与明亮蓝天，宁静的午后。"
+          }
+        },
+        "output": {
+          "src": "https://ailesson.io/content-assets/sha256/97/76/9776ea79c20a4905efae2d1428dbf0c3cf90ab94da365b5bdc8c6b295e101249.png",
+          "alt": {
+            "en": "A hand-painted coastal panorama with golden meadows, green slopes, a blue bay and small hillside houses beneath painted clouds.",
+            "zh": "金色草坡、绿色山坡、蓝色海湾与山间小屋组成的手绘海岸全景，天空绘有云层。"
+          },
+          "width": 1672,
+          "height": 941,
+          "mimeType": "image/png"
+        },
+        "source": {
+          "src": "https://ailesson.io/content-assets/sha256/97/76/9776ea79c20a4905efae2d1428dbf0c3cf90ab94da365b5bdc8c6b295e101249.png",
+          "alt": {
+            "en": "A hand-painted coastal panorama with golden meadows, green slopes, a blue bay and small hillside houses beneath painted clouds.",
+            "zh": "金色草坡、绿色山坡、蓝色海湾与山间小屋组成的手绘海岸全景，天空绘有云层。"
+          },
+          "width": 1672,
+          "height": 941,
+          "mimeType": "image/png"
+        },
+        "notes": {
+          "en": "The meadow, bay and village remain recognizable. The generation adds painted clouds and simplifies small houses; it is an interpretation rather than a faithful geographic reconstruction.",
+          "zh": "草坡、海湾与村庄仍可辨认。生成图增加了手绘云层，并简化了小房屋；它是艺术转译，不是精确地理复原。"
+        },
+        "generation": {
+          "tool": "Built-in image_gen",
+          "date": "2026-09-07",
+          "promptLanguage": "en",
+          "prompt": "Transform the attached photo into a hand-painted anime scene.\n\nEssential elements: The descending golden meadow, dark green trees on the left, small beach near the center, hillside village on the right, and broad bay with a distant headland.\nPalette and mood: Soft summer greens, straw gold, pale turquoise water and a luminous blue sky; a peaceful afternoon.\n\nRepaint as a hand-painted background for a 2D animated film. Use opaque gouache-like color masses, delicately drawn architectural contours, soft layered atmospheric depth and selective crisp highlights. Simplify the foreground grass into rhythmic brush shapes. Separate near, middle and far planes with value and temperature. Keep the village small within the landscape. Avoid photorealism, plastic 3D shading, heavy comic outlines and recognizable franchise motifs.\n\nUse the attached photograph as the only visual reference. Preserve its camera viewpoint, major silhouettes, relative positions, and recognizable subject. Simplify fine details without adding objects. Produce only the finished artwork, not a comparison, mockup or framed print. Keep the original landscape aspect ratio, at least 1400 pixels wide. No text, lettering, logos, signature or watermark; omit any signage visible in the photograph.",
+          "referenceImageIds": [
+            "photo"
+          ],
+          "postprocessing": {
+            "en": "The generated PNG is used unchanged for both the source and published artwork; no resizing or retouching.",
+            "zh": "生成 PNG 直接作为生成原图与发布图片共用，未缩放或修绘。"
+          }
+        }
+      }
+    ],
+    "references": [
+      {
+        "id": "photo",
+        "image": {
+          "src": "https://ailesson.io/content-assets/sha256/60/b6/60b6c57cd35766a133979b111ca77b6af62573386e88ae4b6c0e834613a1aad4.png",
+          "alt": {
+            "en": "A coastal bay viewed across a golden field, with wooded slopes, a small beach and hillside houses.",
+            "zh": "从金色田野俯瞰海湾，画面包含林木山坡、小海滩与山坡房屋。"
+          },
+          "width": 1400,
+          "height": 787,
+          "mimeType": "image/png"
+        },
+        "required": true
+      }
+    ],
+    "citations": [
+      {
+        "id": "style-context",
+        "claim": {
+          "en": "This source informed the choice of style family. The reusable prompt was written independently and the example was generated with a different tool; this is not a popularity ranking.",
+          "zh": "此来源用于选择风格类别。通用提示语独立撰写，示例由另一工具生成；不据此宣称喜爱度排名。"
+        },
+        "source": {
+          "title": "Photo to anime",
+          "publisher": "Canva",
+          "url": "https://www.canva.com/features/photo-to-anime/",
+          "reviewedAt": "2026-09-07"
+        }
+      },
+      {
+        "id": "reference-photo",
+        "claim": {
+          "en": "The reference photograph is by Leticia Golubov, provided under Unsplash License.",
+          "zh": "参考照片由 Leticia Golubov 拍摄，以 Unsplash License 提供。"
+        },
+        "source": {
+          "title": "Coastal village nestled in a valley by the sea",
+          "publisher": "Unsplash / Leticia Golubov",
+          "url": "https://unsplash.com/photos/coastal-village-nestled-in-a-valley-by-the-sea-v6mz1osBv0M",
+          "reviewedAt": "2026-09-07"
+        }
+      },
+      {
+        "id": "photo-license",
+        "claim": {
+          "en": "The Unsplash License permits downloading, copying and modifying covered photos, including commercial use, subject to its exclusions. This is a license, not a claim that the photo has no copyright.",
+          "zh": "Unsplash License 允许下载、复制与修改适用照片，包含商业用途，但须遵循排除条款。这是使用许可，并不表示照片没有版权。"
+        },
+        "source": {
+          "title": "Unsplash License",
+          "publisher": "Unsplash",
+          "url": "https://unsplash.com/license",
+          "reviewedAt": "2026-09-07"
+        }
+      }
+    ]
+  },
+  {
+    "id": "impressionist-oil-paintings",
+    "alias": "turn-photos-into-impressionist-oil-paintings",
+    "name": {
+      "en": "Impressionist oil painting",
+      "zh": "印象派油画"
+    },
+    "summary": {
+      "en": "Turn a flower or tabletop photo into a tactile oil painting with broken color, visible strokes and soft background edges.",
+      "zh": "把花卉或桌面照片转成油画，以碎色、可见笔触与柔和背景边缘表现颜料质感。"
+    },
+    "updatedAt": "2026-09-07",
+    "variables": [
+      {
+        "key": "subject",
+        "label": {
+          "en": "Essential elements",
+          "zh": "必须保留的元素"
+        },
+        "placeholder": {
+          "en": "Pink tulips and long green leaves in a clear glass vase slightly left of center, a raffia bow around its neck, the large wicker basket on the right, and softly lit windows behind.",
+          "zh": "画面偏左透明玻璃瓶中的粉色郁金香与修长绿叶、瓶口的拉菲草结、右侧的大藤篮，以及后方透光的窗户。"
+        },
+        "multiline": true
+      },
+      {
+        "key": "palette",
+        "label": {
+          "en": "Palette and mood",
+          "zh": "配色与氛围"
+        },
+        "placeholder": {
+          "en": "Rose pink, sage green, warm ochre and cool lilac shadows; soft spring daylight.",
+          "zh": "玫瑰粉、鼠尾草绿、暖赭色与冷淡紫阴影，柔和春日光线。"
+        },
+        "multiline": true
+      }
+    ],
+    "template": {
+      "en": "Transform the attached photo into a impressionist oil painting.\n\nEssential elements: {{subject}}\nPalette and mood: {{palette}}\n\nRepaint as an impressionist still-life oil painting. Build petals, glass and wicker from visible short broken brushstrokes and varied paint thickness. Use warm/cool color relationships rather than black outlines. Put firmer edges and modest impasto highlights on the flowers, and softer lost edges in the background. Let individual strokes remain legible at normal viewing size. Preserve the vase's transparency using painted light patches. No photographic blur, uniform texture overlay or melted forms.\n\nUse the attached photograph as the only visual reference. Preserve its camera viewpoint, major silhouettes, relative positions, and recognizable subject. Simplify fine details without adding objects. Produce only the finished artwork, not a comparison, mockup or framed print. Keep the original landscape aspect ratio, at least 1400 pixels wide. No text, lettering, logos, signature or watermark; omit any signage visible in the photograph.",
+      "zh": "将上传照片转化为印象派油画。\n\n必须保留的元素：{{subject}}\n配色与氛围：{{palette}}\n\n重绘为印象派静物油画。以可见的短碎笔触与不同厚薄的颜料塑造花瓣、玻璃和藤编，用色彩冷暖关系代替黑色描边。花朵采用较清晰的边缘与适度厚涂高光，背景边缘柔和消隐。正常观看尺寸下仍能辨认单笔笔触，以光斑绘画表现玻璃的透明感。避免摄影虚化、统一纹理覆盖或融化般的形体。\n\n以上传照片为唯一视觉参考，保留相机视角、主要轮廓、相对位置与可辨认的主体。简化细节，不添加物件。仅输出成品画作，不输出对比拼图、样机或带框印刷品。保持原图横向宽高比，宽度至少 1400 像素。不含文字、字母、标志、签名或水印；省略照片中原有的标牌文字。"
+    },
+    "instructions": {
+      "en": "Upload a photo and describe the elements to keep. Sample photo: Jez Timms, CC0 1.0; source and license links are listed below. The example was generated from the English template. The Chinese version is untested. The displayed example does not change as you type.",
+      "zh": "上传照片并描述需要保留的元素。示例摄影：Jez Timms，采用 CC0 1.0 授权；来源与许可链接见下方。示例使用英文模板生成，中文版本尚未测试。展示的示例不会随输入实时变化。"
+    },
+    "checks": [
+      {
+        "en": "Compare the main silhouette, viewpoint and left/right relationships with the uploaded photo.",
+        "zh": "对照上传照片，检查主要轮廓、视角与左右关系。"
+      },
+      {
+        "en": "Check that petals and glass are built from visible paint strokes, while the vase and basket retain their positions.",
+        "zh": "检查花瓣与玻璃是否由可见笔触构成，花瓶与藤篮的位置是否保留。"
+      },
+      {
+        "en": "Inspect small features at full size and remove accidental lettering before sharing.",
+        "zh": "分享前放大检查细节，清除意外生成的文字。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "conversion",
+        "comparisonReferenceImageId": "photo",
+        "title": {
+          "en": "Tulips by the window",
+          "zh": "窗前郁金香"
+        },
+        "input": {
+          "en": {
+            "subject": "Pink tulips and long green leaves in a clear glass vase slightly left of center, a raffia bow around its neck, the large wicker basket on the right, and softly lit windows behind.",
+            "palette": "Rose pink, sage green, warm ochre and cool lilac shadows; soft spring daylight."
+          },
+          "zh": {
+            "subject": "画面偏左透明玻璃瓶中的粉色郁金香与修长绿叶、瓶口的拉菲草结、右侧的大藤篮，以及后方透光的窗户。",
+            "palette": "玫瑰粉、鼠尾草绿、暖赭色与冷淡紫阴影，柔和春日光线。"
+          }
+        },
+        "output": {
+          "src": "https://ailesson.io/content-assets/sha256/90/9b/909be6a851abed4a5a858956c1e2abeca519a8de1d46624ba50dd9d6d3c5da85.png",
+          "alt": {
+            "en": "An oil-painted still life of pink tulips in a glass vase beside a wicker basket, with textured strokes and warm window light.",
+            "zh": "玻璃瓶中的粉色郁金香与藤篮静物油画，呈现厚薄笔触和温暖窗光。"
+          },
+          "width": 1537,
+          "height": 1023,
+          "mimeType": "image/png"
+        },
+        "source": {
+          "src": "https://ailesson.io/content-assets/sha256/90/9b/909be6a851abed4a5a858956c1e2abeca519a8de1d46624ba50dd9d6d3c5da85.png",
+          "alt": {
+            "en": "An oil-painted still life of pink tulips in a glass vase beside a wicker basket, with textured strokes and warm window light.",
+            "zh": "玻璃瓶中的粉色郁金香与藤篮静物油画，呈现厚薄笔触和温暖窗光。"
+          },
+          "width": 1537,
+          "height": 1023,
+          "mimeType": "image/png"
+        },
+        "notes": {
+          "en": "The vase, bow and basket stay in place and glass remains legible. Paint texture is quite thick across the background as well as the flowers; fine petal and wicker details are reinterpreted.",
+          "zh": "花瓶、草结与藤篮的位置保留，玻璃仍可辨认。背景与花朵都呈现较厚颜料，细微花瓣和藤编纹理经过重绘。"
+        },
+        "generation": {
+          "tool": "Built-in image_gen",
+          "date": "2026-09-07",
+          "promptLanguage": "en",
+          "prompt": "Transform the attached photo into a impressionist oil painting.\n\nEssential elements: Pink tulips and long green leaves in a clear glass vase slightly left of center, a raffia bow around its neck, the large wicker basket on the right, and softly lit windows behind.\nPalette and mood: Rose pink, sage green, warm ochre and cool lilac shadows; soft spring daylight.\n\nRepaint as an impressionist still-life oil painting. Build petals, glass and wicker from visible short broken brushstrokes and varied paint thickness. Use warm/cool color relationships rather than black outlines. Put firmer edges and modest impasto highlights on the flowers, and softer lost edges in the background. Let individual strokes remain legible at normal viewing size. Preserve the vase's transparency using painted light patches. No photographic blur, uniform texture overlay or melted forms.\n\nUse the attached photograph as the only visual reference. Preserve its camera viewpoint, major silhouettes, relative positions, and recognizable subject. Simplify fine details without adding objects. Produce only the finished artwork, not a comparison, mockup or framed print. Keep the original landscape aspect ratio, at least 1400 pixels wide. No text, lettering, logos, signature or watermark; omit any signage visible in the photograph.",
+          "referenceImageIds": [
+            "photo"
+          ],
+          "postprocessing": {
+            "en": "The generated PNG is used unchanged for both the source and published artwork; no resizing or retouching.",
+            "zh": "生成 PNG 直接作为生成原图与发布图片共用，未缩放或修绘。"
+          }
+        }
+      }
+    ],
+    "references": [
+      {
+        "id": "photo",
+        "image": {
+          "src": "https://ailesson.io/content-assets/sha256/40/30/4030559193d5c3911193c6375bda8d56b31796aaaedbd1e8c8ded0bd2b567abc.png",
+          "alt": {
+            "en": "Pink tulips in a clear glass vase with a raffia bow beside a wicker basket in front of windows.",
+            "zh": "窗前透明玻璃瓶中的粉色郁金香，瓶口系有拉菲草结，旁边放着藤篮。"
+          },
+          "width": 1280,
+          "height": 854,
+          "mimeType": "image/png"
+        },
+        "required": true
+      }
+    ],
+    "citations": [
+      {
+        "id": "style-context",
+        "claim": {
+          "en": "This source informed the choice of style family. The reusable prompt was written independently and the example was generated with a different tool; this is not a popularity ranking.",
+          "zh": "此来源用于选择风格类别。通用提示语独立撰写，示例由另一工具生成；不据此宣称喜爱度排名。"
+        },
+        "source": {
+          "title": "Turn photos into paintings",
+          "publisher": "Adobe",
+          "url": "https://www.adobe.com/products/photoshop/photo-to-painting.html",
+          "reviewedAt": "2026-09-07"
+        }
+      },
+      {
+        "id": "reference-photo",
+        "claim": {
+          "en": "The reference photograph is by Jez Timms, provided under CC0 1.0.",
+          "zh": "参考照片由 Jez Timms 拍摄，以 CC0 1.0 提供。"
+        },
+        "source": {
+          "title": "Rustic tulip vase (Unsplash)",
+          "publisher": "Wikimedia Commons / Jez Timms",
+          "url": "https://commons.wikimedia.org/wiki/File:Rustic_tulip_vase_(Unsplash).jpg",
+          "reviewedAt": "2026-09-07"
+        }
+      },
+      {
+        "id": "photo-license",
+        "claim": {
+          "en": "CC0 permits copying and adapting this photograph; the file page records the dedication.",
+          "zh": "CC0 允许复制和改编该照片；文件页记录了相应授权。"
+        },
+        "source": {
+          "title": "CC0 1.0",
+          "publisher": "Creative Commons",
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "reviewedAt": "2026-09-07"
+        }
+      }
+    ]
+  },
+  {
+    "id": "graphite-sketches",
+    "alias": "turn-photos-into-graphite-sketches",
+    "name": {
+      "en": "Graphite pencil sketch",
+      "zh": "石墨铅笔素描"
+    },
+    "summary": {
+      "en": "Render a familiar pet or object in graphite, preserving its pose with directional pencil marks and clean paper highlights.",
+      "zh": "以石墨排线重绘熟悉的宠物或物件，用有方向的铅笔线与纸面高光保留姿态。"
+    },
+    "updatedAt": "2026-09-07",
+    "variables": [
+      {
+        "key": "subject",
+        "label": {
+          "en": "Essential elements",
+          "zh": "必须保留的元素"
+        },
+        "placeholder": {
+          "en": "The fluffy sleeping cat resting on the white windowsill, with its lowered head and hanging foreleg, the window on the left, and the ladder on the right.",
+          "zh": "趴在白色窗台上熟睡的蓬松猫咪、低垂的头与垂下的前腿、左侧窗户及右侧梯子。"
+        },
+        "multiline": true
+      },
+      {
+        "key": "palette",
+        "label": {
+          "en": "Palette and mood",
+          "zh": "配色与氛围"
+        },
+        "placeholder": {
+          "en": "Graphite gray on warm off-white paper, bright window light and quiet soft shadows; no colored pigments.",
+          "zh": "暖灰白纸面上的石墨灰，明亮窗光与安静柔和的阴影，不使用彩色颜料。"
+        },
+        "multiline": true
+      }
+    ],
+    "template": {
+      "en": "Transform the attached photo into a graphite pencil sketch.\n\nEssential elements: {{subject}}\nPalette and mood: {{palette}}\n\nDraw a finished observational graphite sketch. Describe the cat's fur with directional tapered pencil marks that follow the body, preserving its closed eyes, muzzle shape and relaxed pose. Build shadows with layered hatching and cross-hatching; reserve clean paper for highlights. Use delicate construction lines for the window and ladder, softer than the animal. Include subtle paper tooth. No ink contours, charcoal smears, gray photo filter or excessive tiny hairs.\n\nUse the attached photograph as the only visual reference. Preserve its camera viewpoint, major silhouettes, relative positions, and recognizable subject. Simplify fine details without adding objects. Produce only the finished artwork, not a comparison, mockup or framed print. Keep the original landscape aspect ratio, at least 1400 pixels wide. No text, lettering, logos, signature or watermark; omit any signage visible in the photograph.",
+      "zh": "将上传照片转化为石墨铅笔素描。\n\n必须保留的元素：{{subject}}\n配色与氛围：{{palette}}\n\n绘制完整的观察式石墨素描。用顺着身体走向、末端收尖的铅笔线表现猫毛，保留闭合的眼睛、口鼻形状与放松姿态。以层叠排线和交叉排线构建阴影，为高光保留干净纸面。窗户与梯子使用比主体更轻的结构线，呈现细微纸纹。避免墨线轮廓、炭笔涂抹、照片灰度滤镜和过密碎毛。\n\n以上传照片为唯一视觉参考，保留相机视角、主要轮廓、相对位置与可辨认的主体。简化细节，不添加物件。仅输出成品画作，不输出对比拼图、样机或带框印刷品。保持原图横向宽高比，宽度至少 1400 像素。不含文字、字母、标志、签名或水印；省略照片中原有的标牌文字。"
+    },
+    "instructions": {
+      "en": "Upload a photo and describe the elements to keep. Sample photo: Bryony Elena, Unsplash License; source and license links are listed below. The example was generated from the English template. The Chinese version is untested. The displayed example does not change as you type.",
+      "zh": "上传照片并描述需要保留的元素。示例摄影：Bryony Elena，采用 Unsplash License 授权；来源与许可链接见下方。示例使用英文模板生成，中文版本尚未测试。展示的示例不会随输入实时变化。"
+    },
+    "checks": [
+      {
+        "en": "Compare the main silhouette, viewpoint and left/right relationships with the uploaded photo.",
+        "zh": "对照上传照片，检查主要轮廓、视角与左右关系。"
+      },
+      {
+        "en": "Look for directional fur marks, layered hatching and intact facial proportions rather than a grayscale photograph.",
+        "zh": "检查毛发线条方向、分层排线与面部比例，避免只得到一张灰度照片。"
+      },
+      {
+        "en": "Inspect small features at full size and remove accidental lettering before sharing.",
+        "zh": "分享前放大检查细节，清除意外生成的文字。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "conversion",
+        "comparisonReferenceImageId": "photo",
+        "title": {
+          "en": "Sleeping by the window",
+          "zh": "窗边小憩"
+        },
+        "input": {
+          "en": {
+            "subject": "The fluffy sleeping cat resting on the white windowsill, with its lowered head and hanging foreleg, the window on the left, and the ladder on the right.",
+            "palette": "Graphite gray on warm off-white paper, bright window light and quiet soft shadows; no colored pigments."
+          },
+          "zh": {
+            "subject": "趴在白色窗台上熟睡的蓬松猫咪、低垂的头与垂下的前腿、左侧窗户及右侧梯子。",
+            "palette": "暖灰白纸面上的石墨灰，明亮窗光与安静柔和的阴影，不使用彩色颜料。"
+          }
+        },
+        "output": {
+          "src": "https://ailesson.io/content-assets/sha256/0a/bb/0abbc60926261aa9b2d2e98809444b5acd66899abaec117e66f5319d1bd955ab.png",
+          "alt": {
+            "en": "A graphite sketch of a sleeping fluffy cat on a windowsill, with one limb hanging down and a lightly drawn ladder at right.",
+            "zh": "窗台上熟睡的蓬松猫咪石墨素描，一条肢体垂下，右侧梯子以浅线绘出。"
+          },
+          "width": 1535,
+          "height": 1024,
+          "mimeType": "image/png"
+        },
+        "source": {
+          "src": "https://ailesson.io/content-assets/sha256/0a/bb/0abbc60926261aa9b2d2e98809444b5acd66899abaec117e66f5319d1bd955ab.png",
+          "alt": {
+            "en": "A graphite sketch of a sleeping fluffy cat on a windowsill, with one limb hanging down and a lightly drawn ladder at right.",
+            "zh": "窗台上熟睡的蓬松猫咪石墨素描，一条肢体垂下，右侧梯子以浅线绘出。"
+          },
+          "width": 1535,
+          "height": 1024,
+          "mimeType": "image/png"
+        },
+        "notes": {
+          "en": "The sleeping pose, hanging limb and ladder are retained. Directional fur strokes and pale structural lines read as graphite; small facial and fur details differ from the photo.",
+          "zh": "熟睡姿态、垂下的肢体与梯子得到保留。毛发方向线与浅结构线呈现石墨质感，细微五官和毛发与原照有差异。"
+        },
+        "generation": {
+          "tool": "Built-in image_gen",
+          "date": "2026-09-07",
+          "promptLanguage": "en",
+          "prompt": "Transform the attached photo into a graphite pencil sketch.\n\nEssential elements: The fluffy sleeping cat resting on the white windowsill, with its lowered head and hanging foreleg, the window on the left, and the ladder on the right.\nPalette and mood: Graphite gray on warm off-white paper, bright window light and quiet soft shadows; no colored pigments.\n\nDraw a finished observational graphite sketch. Describe the cat's fur with directional tapered pencil marks that follow the body, preserving its closed eyes, muzzle shape and relaxed pose. Build shadows with layered hatching and cross-hatching; reserve clean paper for highlights. Use delicate construction lines for the window and ladder, softer than the animal. Include subtle paper tooth. No ink contours, charcoal smears, gray photo filter or excessive tiny hairs.\n\nUse the attached photograph as the only visual reference. Preserve its camera viewpoint, major silhouettes, relative positions, and recognizable subject. Simplify fine details without adding objects. Produce only the finished artwork, not a comparison, mockup or framed print. Keep the original landscape aspect ratio, at least 1400 pixels wide. No text, lettering, logos, signature or watermark; omit any signage visible in the photograph.",
+          "referenceImageIds": [
+            "photo"
+          ],
+          "postprocessing": {
+            "en": "The generated PNG is used unchanged for both the source and published artwork; no resizing or retouching.",
+            "zh": "生成 PNG 直接作为生成原图与发布图片共用，未缩放或修绘。"
+          }
+        }
+      }
+    ],
+    "references": [
+      {
+        "id": "photo",
+        "image": {
+          "src": "https://ailesson.io/content-assets/sha256/f7/74/f77456efd607639a92825d09289328963f260acd3c436972bab509d8405fc57e.png",
+          "alt": {
+            "en": "A fluffy pale cat asleep on a white windowsill, with a limb and tail hanging down and a ladder on the right.",
+            "zh": "浅色蓬松猫咪在白色窗台上熟睡，肢体与尾巴垂下，右侧有梯子。"
+          },
+          "width": 1400,
+          "height": 933,
+          "mimeType": "image/png"
+        },
+        "required": true
+      }
+    ],
+    "citations": [
+      {
+        "id": "style-context",
+        "claim": {
+          "en": "This source informed the choice of style family. The reusable prompt was written independently and the example was generated with a different tool; this is not a popularity ranking.",
+          "zh": "此来源用于选择风格类别。通用提示语独立撰写，示例由另一工具生成；不据此宣称喜爱度排名。"
+        },
+        "source": {
+          "title": "AI sketch generator",
+          "publisher": "Adobe",
+          "url": "https://www.adobe.com/products/firefly/features/ai-sketch-generator.html",
+          "reviewedAt": "2026-09-07"
+        }
+      },
+      {
+        "id": "reference-photo",
+        "claim": {
+          "en": "The reference photograph is by Bryony Elena, provided under Unsplash License.",
+          "zh": "参考照片由 Bryony Elena 拍摄，以 Unsplash License 提供。"
+        },
+        "source": {
+          "title": "White cat on white window",
+          "publisher": "Unsplash / Bryony Elena",
+          "url": "https://unsplash.com/photos/white-cat-on-white-window-3CklzznTHqk",
+          "reviewedAt": "2026-09-07"
+        }
+      },
+      {
+        "id": "photo-license",
+        "claim": {
+          "en": "The Unsplash License permits downloading, copying and modifying covered photos, including commercial use, subject to its exclusions. This is a license, not a claim that the photo has no copyright.",
+          "zh": "Unsplash License 允许下载、复制与修改适用照片，包含商业用途，但须遵循排除条款。这是使用许可，并不表示照片没有版权。"
+        },
+        "source": {
+          "title": "Unsplash License",
+          "publisher": "Unsplash",
+          "url": "https://unsplash.com/license",
+          "reviewedAt": "2026-09-07"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pop-art-prints",
+    "alias": "turn-photos-into-pop-art-prints",
+    "name": {
+      "en": "Pop-art comic print",
+      "zh": "波普漫画印画"
+    },
+    "summary": {
+      "en": "Give a pet photo a bold printed look using flat colors, clean outlines and selective halftone shadows.",
+      "zh": "用平涂色块、清晰描边与局部半调阴影，让宠物照片呈现鲜明的波普印刷效果。"
+    },
+    "updatedAt": "2026-09-07",
+    "variables": [
+      {
+        "key": "subject",
+        "label": {
+          "en": "Essential elements",
+          "zh": "必须保留的元素"
+        },
+        "placeholder": {
+          "en": "The fluffy sleeping cat on the windowsill, its lowered head and hanging foreleg, the tall window on the left, and the ladder on the right.",
+          "zh": "窗台上熟睡的蓬松猫咪、低垂的头与垂下的前腿、左侧高窗及右侧梯子。"
+        },
+        "multiline": true
+      },
+      {
+        "key": "palette",
+        "label": {
+          "en": "Palette and mood",
+          "zh": "配色与氛围"
+        },
+        "placeholder": {
+          "en": "Cream, coral red, cyan blue and near-black; playful but balanced, with the cat mostly cream.",
+          "zh": "奶油白、珊瑚红、青蓝与近黑色，活泼但平衡，猫咪以奶油白为主。"
+        },
+        "multiline": true
+      }
+    ],
+    "template": {
+      "en": "Transform the attached photo into a pop-art comic print.\n\nEssential elements: {{subject}}\nPalette and mood: {{palette}}\n\nReinterpret as a single-panel pop-art screen print. Use bold clean ink contours, large flat color areas, and regular halftone dots confined to selected shadow shapes. Reduce fur to a few expressive zigzag tufts while preserving the animal's facial proportions and sleepy expression. Simplify the room into broad geometric planes. Keep dot scale consistent and retain generous quiet areas. No speech bubbles, captions, burst shapes, arrows, repeated panels, gradients or photographic texture.\n\nUse the attached photograph as the only visual reference. Preserve its camera viewpoint, major silhouettes, relative positions, and recognizable subject. Simplify fine details without adding objects. Produce only the finished artwork, not a comparison, mockup or framed print. Keep the original landscape aspect ratio, at least 1400 pixels wide. No text, lettering, logos, signature or watermark; omit any signage visible in the photograph.",
+      "zh": "将上传照片转化为波普漫画印画。\n\n必须保留的元素：{{subject}}\n配色与氛围：{{palette}}\n\n转化为单幅波普丝网印画。使用干净有力的墨线轮廓、大面积平涂色块，以及仅位于部分阴影内的规则半调网点。毛发简化为少量有表现力的锯齿状毛簇，同时保留猫咪的面部比例与困倦表情。室内简化为宽阔几何平面，网点尺度一致并保留足够安静区域。无对话框、标题、爆炸形、箭头、多格拼图、渐变或摄影纹理。\n\n以上传照片为唯一视觉参考，保留相机视角、主要轮廓、相对位置与可辨认的主体。简化细节，不添加物件。仅输出成品画作，不输出对比拼图、样机或带框印刷品。保持原图横向宽高比，宽度至少 1400 像素。不含文字、字母、标志、签名或水印；省略照片中原有的标牌文字。"
+    },
+    "instructions": {
+      "en": "Upload a photo and describe the elements to keep. Sample photo: Bryony Elena, Unsplash License; source and license links are listed below. The example was generated from the English template. The Chinese version is untested. The displayed example does not change as you type.",
+      "zh": "上传照片并描述需要保留的元素。示例摄影：Bryony Elena，采用 Unsplash License 授权；来源与许可链接见下方。示例使用英文模板生成，中文版本尚未测试。展示的示例不会随输入实时变化。"
+    },
+    "checks": [
+      {
+        "en": "Compare the main silhouette, viewpoint and left/right relationships with the uploaded photo.",
+        "zh": "对照上传照片，检查主要轮廓、视角与左右关系。"
+      },
+      {
+        "en": "Check that the face stays recognizable and halftone dots do not cover every surface.",
+        "zh": "检查面部是否仍可辨认，半调网点是否没有覆盖所有表面。"
+      },
+      {
+        "en": "Inspect small features at full size and remove accidental lettering before sharing.",
+        "zh": "分享前放大检查细节，清除意外生成的文字。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "conversion",
+        "comparisonReferenceImageId": "photo",
+        "title": {
+          "en": "Sleeping by the window",
+          "zh": "窗边小憩"
+        },
+        "input": {
+          "en": {
+            "subject": "The fluffy sleeping cat on the windowsill, its lowered head and hanging foreleg, the tall window on the left, and the ladder on the right.",
+            "palette": "Cream, coral red, cyan blue and near-black; playful but balanced, with the cat mostly cream."
+          },
+          "zh": {
+            "subject": "窗台上熟睡的蓬松猫咪、低垂的头与垂下的前腿、左侧高窗及右侧梯子。",
+            "palette": "奶油白、珊瑚红、青蓝与近黑色，活泼但平衡，猫咪以奶油白为主。"
+          }
+        },
+        "output": {
+          "src": "https://ailesson.io/content-assets/sha256/24/40/2440784288af45ca4fc718cb5f8112de718b4a08d0e45ae48c8beaebdee377e8.png",
+          "alt": {
+            "en": "A cream sleeping cat rendered with dark comic contours, coral and cyan room shapes and selective halftone dots.",
+            "zh": "奶油色熟睡猫咪，搭配深色漫画轮廓、珊瑚红与青蓝室内色块及局部半调网点。"
+          },
+          "width": 1537,
+          "height": 1023,
+          "mimeType": "image/png"
+        },
+        "source": {
+          "src": "https://ailesson.io/content-assets/sha256/24/40/2440784288af45ca4fc718cb5f8112de718b4a08d0e45ae48c8beaebdee377e8.png",
+          "alt": {
+            "en": "A cream sleeping cat rendered with dark comic contours, coral and cyan room shapes and selective halftone dots.",
+            "zh": "奶油色熟睡猫咪，搭配深色漫画轮廓、珊瑚红与青蓝室内色块及局部半调网点。"
+          },
+          "width": 1537,
+          "height": 1023,
+          "mimeType": "image/png"
+        },
+        "notes": {
+          "en": "The cat, windowsill and ladder remain recognizable, with flat coral/cyan shapes and selective dots. The face is more cartoon-like and the dots vary slightly in size; this is not a print-ready color separation.",
+          "zh": "猫咪、窗台与梯子仍可辨认，搭配珊瑚红／青蓝色块与局部网点。面部更加卡通化，网点大小略有变化；成图不是可直接印刷的分色稿。"
+        },
+        "generation": {
+          "tool": "Built-in image_gen",
+          "date": "2026-09-07",
+          "promptLanguage": "en",
+          "prompt": "Transform the attached photo into a pop-art comic print.\n\nEssential elements: The fluffy sleeping cat on the windowsill, its lowered head and hanging foreleg, the tall window on the left, and the ladder on the right.\nPalette and mood: Cream, coral red, cyan blue and near-black; playful but balanced, with the cat mostly cream.\n\nReinterpret as a single-panel pop-art screen print. Use bold clean ink contours, large flat color areas, and regular halftone dots confined to selected shadow shapes. Reduce fur to a few expressive zigzag tufts while preserving the animal's facial proportions and sleepy expression. Simplify the room into broad geometric planes. Keep dot scale consistent and retain generous quiet areas. No speech bubbles, captions, burst shapes, arrows, repeated panels, gradients or photographic texture.\n\nUse the attached photograph as the only visual reference. Preserve its camera viewpoint, major silhouettes, relative positions, and recognizable subject. Simplify fine details without adding objects. Produce only the finished artwork, not a comparison, mockup or framed print. Keep the original landscape aspect ratio, at least 1400 pixels wide. No text, lettering, logos, signature or watermark; omit any signage visible in the photograph.",
+          "referenceImageIds": [
+            "photo"
+          ],
+          "postprocessing": {
+            "en": "The generated PNG is used unchanged for both the source and published artwork; no resizing or retouching.",
+            "zh": "生成 PNG 直接作为生成原图与发布图片共用，未缩放或修绘。"
+          }
+        }
+      }
+    ],
+    "references": [
+      {
+        "id": "photo",
+        "image": {
+          "src": "https://ailesson.io/content-assets/sha256/f7/74/f77456efd607639a92825d09289328963f260acd3c436972bab509d8405fc57e.png",
+          "alt": {
+            "en": "A fluffy pale cat asleep on a white windowsill, with a limb and tail hanging down and a ladder on the right.",
+            "zh": "浅色蓬松猫咪在白色窗台上熟睡，肢体与尾巴垂下，右侧有梯子。"
+          },
+          "width": 1400,
+          "height": 933,
+          "mimeType": "image/png"
+        },
+        "required": true
+      }
+    ],
+    "citations": [
+      {
+        "id": "style-context",
+        "claim": {
+          "en": "This source informed the choice of style family. The reusable prompt was written independently and the example was generated with a different tool; this is not a popularity ranking.",
+          "zh": "此来源用于选择风格类别。通用提示语独立撰写，示例由另一工具生成；不据此宣称喜爱度排名。"
+        },
+        "source": {
+          "title": "AI art generator",
+          "publisher": "Picsart",
+          "url": "https://picsart.com/ai-art-generator/",
+          "reviewedAt": "2026-09-07"
+        }
+      },
+      {
+        "id": "reference-photo",
+        "claim": {
+          "en": "The reference photograph is by Bryony Elena, provided under Unsplash License.",
+          "zh": "参考照片由 Bryony Elena 拍摄，以 Unsplash License 提供。"
+        },
+        "source": {
+          "title": "White cat on white window",
+          "publisher": "Unsplash / Bryony Elena",
+          "url": "https://unsplash.com/photos/white-cat-on-white-window-3CklzznTHqk",
+          "reviewedAt": "2026-09-07"
+        }
+      },
+      {
+        "id": "photo-license",
+        "claim": {
+          "en": "The Unsplash License permits downloading, copying and modifying covered photos, including commercial use, subject to its exclusions. This is a license, not a claim that the photo has no copyright.",
+          "zh": "Unsplash License 允许下载、复制与修改适用照片，包含商业用途，但须遵循排除条款。这是使用许可，并不表示照片没有版权。"
+        },
+        "source": {
+          "title": "Unsplash License",
+          "publisher": "Unsplash",
+          "url": "https://unsplash.com/license",
+          "reviewedAt": "2026-09-07"
+        }
+      }
+    ]
+  },
+  {
+    "id": "retro-travel-posters",
+    "alias": "turn-photos-into-retro-travel-posters",
+    "name": {
+      "en": "Retro travel poster",
+      "zh": "复古旅行海报"
+    },
+    "summary": {
+      "en": "Simplify a favorite coast or landscape into an understated travel illustration with sweeping shapes and a small print palette.",
+      "zh": "将喜爱的海岸或风景简化为复古旅行插画，使用流畅形状与克制的印刷配色。"
+    },
+    "updatedAt": "2026-09-07",
+    "variables": [
+      {
+        "key": "subject",
+        "label": {
+          "en": "Essential elements",
+          "zh": "必须保留的元素"
+        },
+        "placeholder": {
+          "en": "The golden field descending toward the central beach, green wooded slope on the left, village on the right hillside, and the curving bay with the headland beyond.",
+          "zh": "向中央海滩延伸的金色田野、左侧绿树坡地、右侧山坡村庄，以及弧形海湾与后方岬角。"
+        },
+        "multiline": true
+      },
+      {
+        "key": "palette",
+        "label": {
+          "en": "Palette and mood",
+          "zh": "配色与氛围"
+        },
+        "placeholder": {
+          "en": "A restrained six-ink palette of cream, ochre, rust, deep forest green, muted teal and pale blue.",
+          "zh": "以奶油白、赭黄、铁锈红、深森林绿、低饱和青绿与浅蓝组成克制的六色印刷配色。"
+        },
+        "multiline": true
+      }
+    ],
+    "template": {
+      "en": "Transform the attached photo into a retro travel poster.\n\nEssential elements: {{subject}}\nPalette and mood: {{palette}}\n\nRedesign as a mid-century illustrated travel poster without typography. Distill terrain and buildings into confident interlocking flat shapes with elegant sweeping contours. Use three clear depth layers, strong readable light/shadow masses and a subtle lithographic paper grain. Keep the coast's silhouette geographically recognizable rather than inventing dramatic peaks. Preserve the original horizontal framing and let the artwork fill the canvas. No border, labels, slogans, gradients, 3D rendering or distressed damage.\n\nUse the attached photograph as the only visual reference. Preserve its camera viewpoint, major silhouettes, relative positions, and recognizable subject. Simplify fine details without adding objects. Produce only the finished artwork, not a comparison, mockup or framed print. Keep the original landscape aspect ratio, at least 1400 pixels wide. No text, lettering, logos, signature or watermark; omit any signage visible in the photograph.",
+      "zh": "将上传照片转化为复古旅行海报。\n\n必须保留的元素：{{subject}}\n配色与氛围：{{palette}}\n\n重设计为不含文字的二十世纪中期旅行海报插画。将地形与建筑归纳为相互衔接的明确平面色块，轮廓流畅优雅。使用清晰的三层景深、容易辨认的大块明暗及细微石版印刷纸纹。保留海岸轮廓的可辨认性，不虚构陡峭山峰。保持原图横向取景，画面铺满画布。无边框、地名、标语、渐变、三维渲染或破损做旧。\n\n以上传照片为唯一视觉参考，保留相机视角、主要轮廓、相对位置与可辨认的主体。简化细节，不添加物件。仅输出成品画作，不输出对比拼图、样机或带框印刷品。保持原图横向宽高比，宽度至少 1400 像素。不含文字、字母、标志、签名或水印；省略照片中原有的标牌文字。"
+    },
+    "instructions": {
+      "en": "Upload a photo and describe the elements to keep. Sample photo: Leticia Golubov, Unsplash License; source and license links are listed below. The example was generated from the English template. The Chinese version is untested. The displayed example does not change as you type.",
+      "zh": "上传照片并描述需要保留的元素。示例摄影：Leticia Golubov，采用 Unsplash License 授权；来源与许可链接见下方。示例使用英文模板生成，中文版本尚未测试。展示的示例不会随输入实时变化。"
+    },
+    "checks": [
+      {
+        "en": "Compare the main silhouette, viewpoint and left/right relationships with the uploaded photo.",
+        "zh": "对照上传照片，检查主要轮廓、视角与左右关系。"
+      },
+      {
+        "en": "Check the coastline silhouette, clear depth layers and absence of invented typography or framing.",
+        "zh": "检查海岸轮廓、清晰的远近层次，以及是否没有虚构文字或画框。"
+      },
+      {
+        "en": "Inspect small features at full size and remove accidental lettering before sharing.",
+        "zh": "分享前放大检查细节，清除意外生成的文字。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "conversion",
+        "comparisonReferenceImageId": "photo",
+        "title": {
+          "en": "Coastal village",
+          "zh": "海湾村庄"
+        },
+        "input": {
+          "en": {
+            "subject": "The golden field descending toward the central beach, green wooded slope on the left, village on the right hillside, and the curving bay with the headland beyond.",
+            "palette": "A restrained six-ink palette of cream, ochre, rust, deep forest green, muted teal and pale blue."
+          },
+          "zh": {
+            "subject": "向中央海滩延伸的金色田野、左侧绿树坡地、右侧山坡村庄，以及弧形海湾与后方岬角。",
+            "palette": "以奶油白、赭黄、铁锈红、深森林绿、低饱和青绿与浅蓝组成克制的六色印刷配色。"
+          }
+        },
+        "output": {
+          "src": "https://ailesson.io/content-assets/sha256/d3/34/d334c19f4d428ae0978f2445d9a54861c645602349edaff7f2d605ab6ce48664.png",
+          "alt": {
+            "en": "A flat-color retro illustration of a coastal village and curved bay, framed by ochre fields and deep green slopes.",
+            "zh": "以赭色田野和深绿山坡围绕海湾村庄的复古平涂插画，海岸呈弧形延伸。"
+          },
+          "width": 1672,
+          "height": 941,
+          "mimeType": "image/png"
+        },
+        "source": {
+          "src": "https://ailesson.io/content-assets/sha256/d3/34/d334c19f4d428ae0978f2445d9a54861c645602349edaff7f2d605ab6ce48664.png",
+          "alt": {
+            "en": "A flat-color retro illustration of a coastal village and curved bay, framed by ochre fields and deep green slopes.",
+            "zh": "以赭色田野和深绿山坡围绕海湾村庄的复古平涂插画，海岸呈弧形延伸。"
+          },
+          "width": 1672,
+          "height": 941,
+          "mimeType": "image/png"
+        },
+        "notes": {
+          "en": "The beach, headland and field retain their arrangement. Flat ochre and green masses create a poster-like composition; small houses and trees are simplified, and the six-ink palette is an aesthetic direction rather than an exact color count.",
+          "zh": "海滩、岬角与田野的关系保留，赭黄与绿色块构成海报式画面。小房屋与树木被简化，六色配色是视觉方向而非精确色数。"
+        },
+        "generation": {
+          "tool": "Built-in image_gen",
+          "date": "2026-09-07",
+          "promptLanguage": "en",
+          "prompt": "Transform the attached photo into a retro travel poster.\n\nEssential elements: The golden field descending toward the central beach, green wooded slope on the left, village on the right hillside, and the curving bay with the headland beyond.\nPalette and mood: A restrained six-ink palette of cream, ochre, rust, deep forest green, muted teal and pale blue.\n\nRedesign as a mid-century illustrated travel poster without typography. Distill terrain and buildings into confident interlocking flat shapes with elegant sweeping contours. Use three clear depth layers, strong readable light/shadow masses and a subtle lithographic paper grain. Keep the coast's silhouette geographically recognizable rather than inventing dramatic peaks. Preserve the original horizontal framing and let the artwork fill the canvas. No border, labels, slogans, gradients, 3D rendering or distressed damage.\n\nUse the attached photograph as the only visual reference. Preserve its camera viewpoint, major silhouettes, relative positions, and recognizable subject. Simplify fine details without adding objects. Produce only the finished artwork, not a comparison, mockup or framed print. Keep the original landscape aspect ratio, at least 1400 pixels wide. No text, lettering, logos, signature or watermark; omit any signage visible in the photograph.",
+          "referenceImageIds": [
+            "photo"
+          ],
+          "postprocessing": {
+            "en": "The generated PNG is used unchanged for both the source and published artwork; no resizing or retouching.",
+            "zh": "生成 PNG 直接作为生成原图与发布图片共用，未缩放或修绘。"
+          }
+        }
+      }
+    ],
+    "references": [
+      {
+        "id": "photo",
+        "image": {
+          "src": "https://ailesson.io/content-assets/sha256/60/b6/60b6c57cd35766a133979b111ca77b6af62573386e88ae4b6c0e834613a1aad4.png",
+          "alt": {
+            "en": "A coastal bay viewed across a golden field, with wooded slopes, a small beach and hillside houses.",
+            "zh": "从金色田野俯瞰海湾，画面包含林木山坡、小海滩与山坡房屋。"
+          },
+          "width": 1400,
+          "height": 787,
+          "mimeType": "image/png"
+        },
+        "required": true
+      }
+    ],
+    "citations": [
+      {
+        "id": "style-context",
+        "claim": {
+          "en": "This source informed the choice of style family. The reusable prompt was written independently and the example was generated with a different tool; this is not a popularity ranking.",
+          "zh": "此来源用于选择风格类别。通用提示语独立撰写，示例由另一工具生成；不据此宣称喜爱度排名。"
+        },
+        "source": {
+          "title": "Travel poster templates",
+          "publisher": "Adobe Express",
+          "url": "https://www.adobe.com/express/templates/poster/travel",
+          "reviewedAt": "2026-09-07"
+        }
+      },
+      {
+        "id": "reference-photo",
+        "claim": {
+          "en": "The reference photograph is by Leticia Golubov, provided under Unsplash License.",
+          "zh": "参考照片由 Leticia Golubov 拍摄，以 Unsplash License 提供。"
+        },
+        "source": {
+          "title": "Coastal village nestled in a valley by the sea",
+          "publisher": "Unsplash / Leticia Golubov",
+          "url": "https://unsplash.com/photos/coastal-village-nestled-in-a-valley-by-the-sea-v6mz1osBv0M",
+          "reviewedAt": "2026-09-07"
+        }
+      },
+      {
+        "id": "photo-license",
+        "claim": {
+          "en": "The Unsplash License permits downloading, copying and modifying covered photos, including commercial use, subject to its exclusions. This is a license, not a claim that the photo has no copyright.",
+          "zh": "Unsplash License 允许下载、复制与修改适用照片，包含商业用途，但须遵循排除条款。这是使用许可，并不表示照片没有版权。"
+        },
+        "source": {
+          "title": "Unsplash License",
+          "publisher": "Unsplash",
+          "url": "https://unsplash.com/license",
+          "reviewedAt": "2026-09-07"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pixel-art-scenes",
+    "alias": "turn-photos-into-pixel-art-scenes",
+    "name": {
+      "en": "Pixel-art landscape",
+      "zh": "像素艺术场景"
+    },
+    "summary": {
+      "en": "Rebuild a landscape with crisp pixel clusters, stepped silhouettes and a compact palette inspired by classic games.",
+      "zh": "用清晰像素簇、阶梯轮廓与紧凑配色重建风景，呈现经典游戏般的画面。"
+    },
+    "updatedAt": "2026-09-07",
+    "variables": [
+      {
+        "key": "subject",
+        "label": {
+          "en": "Essential elements",
+          "zh": "必须保留的元素"
+        },
+        "placeholder": {
+          "en": "The red-roof boathouse at the left lakeshore, pine forest, angular mountain peaks, blue lake reflections and low shrubs across the foreground.",
+          "zh": "左侧湖岸的红顶船屋、松林、棱角分明的山峰、蓝色湖面倒影，以及前景低矮灌木。"
+        },
+        "multiline": true
+      },
+      {
+        "key": "palette",
+        "label": {
+          "en": "Palette and mood",
+          "zh": "配色与氛围"
+        },
+        "placeholder": {
+          "en": "A compact palette of sky blue, deep navy, pine green, warm gold and a small terracotta roof accent; late afternoon.",
+          "zh": "紧凑的天蓝、深海军蓝、松绿、暖金配色，以少量陶土红屋顶点缀，傍晚前的午后。"
+        },
+        "multiline": true
+      }
+    ],
+    "template": {
+      "en": "Transform the attached photo into a pixel-art landscape.\n\nEssential elements: {{subject}}\nPalette and mood: {{palette}}\n\nRebuild as carefully composed 16-bit-era pixel art. Use a visibly coarse, consistent square pixel grid, as if drawn at approximately 320 pixels wide and enlarged with nearest-neighbor scaling. Shape trees, mountains, roofs and water with deliberate clusters, crisp stair-step diagonals and selective ordered dithering. Make the small boathouse readable with a few high-contrast pixels. Keep distant details simpler than foreground clusters. No smooth brushwork, anti-aliased edges, photo mosaic, HUD, game characters or text. This is an aesthetic target, not a claim of an exact indexed palette.\n\nUse the attached photograph as the only visual reference. Preserve its camera viewpoint, major silhouettes, relative positions, and recognizable subject. Simplify fine details without adding objects. Produce only the finished artwork, not a comparison, mockup or framed print. Keep the original landscape aspect ratio, at least 1400 pixels wide. No text, lettering, logos, signature or watermark; omit any signage visible in the photograph.",
+      "zh": "将上传照片转化为像素艺术场景。\n\n必须保留的元素：{{subject}}\n配色与氛围：{{palette}}\n\n重绘为精心构图的十六位时代像素画。采用明显粗颗粒且一致的方形像素网格，如同以约 320 像素宽绘制后使用最近邻放大。用有意组织的像素簇、清晰阶梯状斜线与少量有序抖色塑造树木、山峰、屋顶和水面。以少量高对比像素让小船屋可辨认，远景细节比前景像素簇更简洁。无平滑笔触、抗锯齿边缘、照片马赛克、游戏界面、角色或文字。这是视觉目标，不承诺精确的索引色数量。\n\n以上传照片为唯一视觉参考，保留相机视角、主要轮廓、相对位置与可辨认的主体。简化细节，不添加物件。仅输出成品画作，不输出对比拼图、样机或带框印刷品。保持原图横向宽高比，宽度至少 1400 像素。不含文字、字母、标志、签名或水印；省略照片中原有的标牌文字。"
+    },
+    "instructions": {
+      "en": "Upload a photo and describe the elements to keep. Sample photo: Rafael Peier, Unsplash License; source and license links are listed below. The example was generated from the English template. The Chinese version is untested. The displayed example does not change as you type.",
+      "zh": "上传照片并描述需要保留的元素。示例摄影：Rafael Peier，采用 Unsplash License 授权；来源与许可链接见下方。示例使用英文模板生成，中文版本尚未测试。展示的示例不会随输入实时变化。"
+    },
+    "checks": [
+      {
+        "en": "Compare the main silhouette, viewpoint and left/right relationships with the uploaded photo.",
+        "zh": "对照上传照片，检查主要轮廓、视角与左右关系。"
+      },
+      {
+        "en": "Inspect the roof, mountain diagonals and water: pixel clusters should be readable and edges should stay crisp.",
+        "zh": "观察屋顶、山峰斜线与水面：像素簇应清晰可读，边缘保持利落。"
+      },
+      {
+        "en": "Inspect small features at full size and remove accidental lettering before sharing.",
+        "zh": "分享前放大检查细节，清除意外生成的文字。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "conversion",
+        "comparisonReferenceImageId": "photo",
+        "title": {
+          "en": "Mountain lake",
+          "zh": "山间湖泊"
+        },
+        "input": {
+          "en": {
+            "subject": "The red-roof boathouse at the left lakeshore, pine forest, angular mountain peaks, blue lake reflections and low shrubs across the foreground.",
+            "palette": "A compact palette of sky blue, deep navy, pine green, warm gold and a small terracotta roof accent; late afternoon."
+          },
+          "zh": {
+            "subject": "左侧湖岸的红顶船屋、松林、棱角分明的山峰、蓝色湖面倒影，以及前景低矮灌木。",
+            "palette": "紧凑的天蓝、深海军蓝、松绿、暖金配色，以少量陶土红屋顶点缀，傍晚前的午后。"
+          }
+        },
+        "output": {
+          "src": "https://ailesson.io/content-assets/sha256/a6/17/a6178f488396fb2297a3b440e581581b3197ac30460f2cce4941e3bb8affd20d.png",
+          "alt": {
+            "en": "A pixel-art mountain lake with a red-roof boathouse on the left, dark pine trees and golden foreground shrubs.",
+            "zh": "左侧有红顶船屋、深色松树与金色前景灌木的像素山湖风景。"
+          },
+          "width": 1536,
+          "height": 1024,
+          "mimeType": "image/png"
+        },
+        "source": {
+          "src": "https://ailesson.io/content-assets/sha256/a6/17/a6178f488396fb2297a3b440e581581b3197ac30460f2cce4941e3bb8affd20d.png",
+          "alt": {
+            "en": "A pixel-art mountain lake with a red-roof boathouse on the left, dark pine trees and golden foreground shrubs.",
+            "zh": "左侧有红顶船屋、深色松树与金色前景灌木的像素山湖风景。"
+          },
+          "width": 1536,
+          "height": 1024,
+          "mimeType": "image/png"
+        },
+        "notes": {
+          "en": "The red roof, lake and mountain arrangement remain recognizable. The output has coarse pixel clusters and strong sky dithering, but the house is enlarged and the image is not a certified uniform-grid game asset.",
+          "zh": "红顶、湖泊与山峰关系仍可辨认。成图具有粗颗粒像素簇和明显天空抖色，但船屋有所放大，也不是经过统一网格认证的游戏资产。"
+        },
+        "generation": {
+          "tool": "Built-in image_gen",
+          "date": "2026-09-07",
+          "promptLanguage": "en",
+          "prompt": "Transform the attached photo into a pixel-art landscape.\n\nEssential elements: The red-roof boathouse at the left lakeshore, pine forest, angular mountain peaks, blue lake reflections and low shrubs across the foreground.\nPalette and mood: A compact palette of sky blue, deep navy, pine green, warm gold and a small terracotta roof accent; late afternoon.\n\nRebuild as carefully composed 16-bit-era pixel art. Use a visibly coarse, consistent square pixel grid, as if drawn at approximately 320 pixels wide and enlarged with nearest-neighbor scaling. Shape trees, mountains, roofs and water with deliberate clusters, crisp stair-step diagonals and selective ordered dithering. Make the small boathouse readable with a few high-contrast pixels. Keep distant details simpler than foreground clusters. No smooth brushwork, anti-aliased edges, photo mosaic, HUD, game characters or text. This is an aesthetic target, not a claim of an exact indexed palette.\n\nUse the attached photograph as the only visual reference. Preserve its camera viewpoint, major silhouettes, relative positions, and recognizable subject. Simplify fine details without adding objects. Produce only the finished artwork, not a comparison, mockup or framed print. Keep the original landscape aspect ratio, at least 1400 pixels wide. No text, lettering, logos, signature or watermark; omit any signage visible in the photograph.",
+          "referenceImageIds": [
+            "photo"
+          ],
+          "postprocessing": {
+            "en": "The generated PNG is used unchanged for both the source and published artwork; no resizing or retouching.",
+            "zh": "生成 PNG 直接作为生成原图与发布图片共用，未缩放或修绘。"
+          }
+        }
+      }
+    ],
+    "references": [
+      {
+        "id": "photo",
+        "image": {
+          "src": "https://ailesson.io/content-assets/sha256/ea/66/ea66fe51fe702cd080905fc1954c0dba73eab85b0489b9b2ac4a5a1ee7c2658c.png",
+          "alt": {
+            "en": "A red-roof boathouse on the left shore of a blue mountain lake, with pine forest and foreground shrubs.",
+            "zh": "蓝色山湖左岸的红顶船屋，周围有松林与前景灌木。"
+          },
+          "width": 1400,
+          "height": 934,
+          "mimeType": "image/png"
+        },
+        "required": true
+      }
+    ],
+    "citations": [
+      {
+        "id": "style-context",
+        "claim": {
+          "en": "This source informed the choice of style family. The reusable prompt was written independently and the example was generated with a different tool; this is not a popularity ranking.",
+          "zh": "此来源用于选择风格类别。通用提示语独立撰写，示例由另一工具生成；不据此宣称喜爱度排名。"
+        },
+        "source": {
+          "title": "AI art generator",
+          "publisher": "Picsart",
+          "url": "https://picsart.com/ai-art-generator/",
+          "reviewedAt": "2026-09-07"
+        }
+      },
+      {
+        "id": "reference-photo",
+        "claim": {
+          "en": "The reference photograph is by Rafael Peier, provided under Unsplash License.",
+          "zh": "参考照片由 Rafael Peier 拍摄，以 Unsplash License 提供。"
+        },
+        "source": {
+          "title": "Mountain lake with a boathouse and surrounding forest",
+          "publisher": "Unsplash / Rafael Peier",
+          "url": "https://unsplash.com/photos/mountain-lake-with-a-boathouse-and-surrounding-forest-I_XRy-z8m8k",
+          "reviewedAt": "2026-09-07"
+        }
+      },
+      {
+        "id": "photo-license",
+        "claim": {
+          "en": "The Unsplash License permits downloading, copying and modifying covered photos, including commercial use, subject to its exclusions. This is a license, not a claim that the photo has no copyright.",
+          "zh": "Unsplash License 允许下载、复制与修改适用照片，包含商业用途，但须遵循排除条款。这是使用许可，并不表示照片没有版权。"
+        },
+        "source": {
+          "title": "Unsplash License",
+          "publisher": "Unsplash",
+          "url": "https://unsplash.com/license",
+          "reviewedAt": "2026-09-07"
+        }
+      }
+    ]
+  },
+  {
+    "id": "layered-paper-scenes",
+    "alias": "turn-photos-into-layered-paper-scenes",
+    "name": {
+      "en": "Layered paper scene",
+      "zh": "层叠剪纸场景"
+    },
+    "summary": {
+      "en": "Rebuild a landscape from matte paper shapes, shallow overlap shadows and tactile cut edges.",
+      "zh": "用哑光纸片、浅叠压阴影与可见剪切边缘，将风景照片重构为手工剪纸场景。"
+    },
+    "updatedAt": "2026-09-07",
+    "variables": [
+      {
+        "key": "subject",
+        "label": {
+          "en": "Essential elements",
+          "zh": "必须保留的元素"
+        },
+        "placeholder": {
+          "en": "The descending golden meadow, dark green trees on the left, small beach near the center, hillside village on the right, and broad bay with a distant headland.",
+          "zh": "向下延伸的金色草坡、左侧深绿树丛、中央附近的小海滩、右侧山坡村庄，以及宽阔海湾与远处岬角。"
+        },
+        "multiline": true
+      },
+      {
+        "key": "palette",
+        "label": {
+          "en": "Palette and mood",
+          "zh": "配色与氛围"
+        },
+        "placeholder": {
+          "en": "Warm ochre fields, moss and deep pine greens, pale cream houses and muted turquoise sea; calm tactile daylight.",
+          "zh": "暖赭色田野、苔绿与深松绿、浅奶油色房屋和柔和青绿海水，平静且有触感的日光。"
+        },
+        "multiline": true
+      }
+    ],
+    "template": {
+      "en": "Transform the attached photo into artwork in this style: Layered paper scene.\n\nEssential elements: {{subject}}\nPalette and mood: {{palette}}\n\nRebuild the entire landscape as a handmade layered cut-paper illustration viewed straight on. Construct hills, sea and trees from broad individually cut matte paper shapes, with subtle visible fibers and slight irregularities along scissor-cut edges. Use shallow physical overlap shadows to distinguish five to seven major depth planes, not dozens of contour-map rings. Form small houses from simple paper rectangles and pitched roofs. Keep foreground shapes broad and distant shapes restrained. No drawn outlines, photographic textures, glossy plastic, text scraps, decorative objects or deep theatrical shadows.\n\nUse the attached photograph as the only visual reference. Preserve its camera viewpoint, major silhouettes, relative positions, and recognizable subject. Simplify fine details without adding objects. Produce only the finished artwork, not a comparison, mockup or framed print. Keep the original landscape aspect ratio, at least 1400 pixels wide. No text, lettering, logos, signature or watermark; omit any signage visible in the photograph.",
+      "zh": "将上传照片转化为层叠剪纸场景。\n\n必须保留的元素：{{subject}}\n配色与氛围：{{palette}}\n\n把整个风景重构为正面观看的手工层叠剪纸插画。山坡、海面与树木由独立裁切的宽阔哑光纸片组成，呈现细微纸纤维和略有不规则的剪切边缘。使用浅浅的叠压阴影区分五至七个主要远近层次，不画成密集等高线。小房屋由简单纸矩形与坡屋顶组成，前景形状宽阔，远景简洁。无描线、摄影纹理、亮面塑料、报纸文字碎片、装饰物或深重舞台阴影。\n\n以上传照片为唯一视觉参考，保留相机视角、主要轮廓、相对位置与可辨认的主体。简化细节，不添加物件。仅输出成品画作，不输出对比拼图、样机或带框印刷品。保持原图横向宽高比，宽度至少 1400 像素。不含文字、字母、标志、签名或水印；省略照片中原有的标牌文字。"
+    },
+    "instructions": {
+      "en": "Upload a photo and describe the elements to keep. Sample photo: Leticia Golubov, Unsplash License; source and license links are listed below. The example was generated from the English template. The Chinese version is untested. The displayed example does not change as you type.",
+      "zh": "上传照片并描述需要保留的元素。示例摄影：Leticia Golubov，采用 Unsplash License 授权；来源与许可链接见下方。示例使用英文模板生成，中文版本尚未测试。展示的示例不会随输入实时变化。"
+    },
+    "checks": [
+      {
+        "en": "Compare the main silhouette, viewpoint and left/right relationships with the uploaded photo.",
+        "zh": "对照上传照片，检查主要轮廓、视角与左右关系。"
+      },
+      {
+        "en": "Check that paper edges and shallow overlap shadows are visible while the coastline and village remain recognizable.",
+        "zh": "检查纸边与浅叠压阴影是否可见，海岸和村庄是否仍可辨认。"
+      },
+      {
+        "en": "Inspect small features at full size and remove accidental lettering before sharing.",
+        "zh": "分享前放大检查细节，清除意外生成的文字。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "conversion",
+        "comparisonReferenceImageId": "photo",
+        "title": {
+          "en": "Coastal village",
+          "zh": "海湾村庄"
+        },
+        "input": {
+          "en": {
+            "subject": "The descending golden meadow, dark green trees on the left, small beach near the center, hillside village on the right, and broad bay with a distant headland.",
+            "palette": "Warm ochre fields, moss and deep pine greens, pale cream houses and muted turquoise sea; calm tactile daylight."
+          },
+          "zh": {
+            "subject": "向下延伸的金色草坡、左侧深绿树丛、中央附近的小海滩、右侧山坡村庄，以及宽阔海湾与远处岬角。",
+            "palette": "暖赭色田野、苔绿与深松绿、浅奶油色房屋和柔和青绿海水，平静且有触感的日光。"
+          }
+        },
+        "output": {
+          "src": "https://ailesson.io/content-assets/sha256/bc/1e/bc1e864434ee614dfda46fffac8443c6cde578965c41d7d65434561e4a495964.png",
+          "alt": {
+            "en": "A layered paper coastal panorama with ochre fields, green tree cutouts, turquoise water and small cream houses.",
+            "zh": "由赭色田野、绿色剪纸树丛、青绿海面与奶油色小屋组成的层叠纸艺海岸全景。"
+          },
+          "width": 1672,
+          "height": 941,
+          "mimeType": "image/png"
+        },
+        "source": {
+          "src": "https://ailesson.io/content-assets/sha256/bc/1e/bc1e864434ee614dfda46fffac8443c6cde578965c41d7d65434561e4a495964.png",
+          "alt": {
+            "en": "A layered paper coastal panorama with ochre fields, green tree cutouts, turquoise water and small cream houses.",
+            "zh": "由赭色田野、绿色剪纸树丛、青绿海面与奶油色小屋组成的层叠纸艺海岸全景。"
+          },
+          "width": 1672,
+          "height": 941,
+          "mimeType": "image/png"
+        },
+        "notes": {
+          "en": "The bay, meadow and wooded slope remain clear, with visible fibers and overlapping paper. Small houses are enlarged and simplified; there are more local layers than the requested major planes.",
+          "zh": "海湾、草坡和树坡清晰，纸纤维与叠压效果可见。小房屋有所放大和简化，局部纸层多于提示语要求的主要景深层。"
+        },
+        "generation": {
+          "tool": "Built-in image_gen",
+          "date": "2026-09-07",
+          "promptLanguage": "en",
+          "prompt": "Transform the attached photo into artwork in this style: Layered paper scene.\n\nEssential elements: The descending golden meadow, dark green trees on the left, small beach near the center, hillside village on the right, and broad bay with a distant headland.\nPalette and mood: Warm ochre fields, moss and deep pine greens, pale cream houses and muted turquoise sea; calm tactile daylight.\n\nRebuild the entire landscape as a handmade layered cut-paper illustration viewed straight on. Construct hills, sea and trees from broad individually cut matte paper shapes, with subtle visible fibers and slight irregularities along scissor-cut edges. Use shallow physical overlap shadows to distinguish five to seven major depth planes, not dozens of contour-map rings. Form small houses from simple paper rectangles and pitched roofs. Keep foreground shapes broad and distant shapes restrained. No drawn outlines, photographic textures, glossy plastic, text scraps, decorative objects or deep theatrical shadows.\n\nUse the attached photograph as the only visual reference. Preserve its camera viewpoint, major silhouettes, relative positions, and recognizable subject. Simplify fine details without adding objects. Produce only the finished artwork, not a comparison, mockup or framed print. Keep the original landscape aspect ratio, at least 1400 pixels wide. No text, lettering, logos, signature or watermark; omit any signage visible in the photograph.",
+          "referenceImageIds": [
+            "photo"
+          ],
+          "postprocessing": {
+            "en": "The generated PNG is used unchanged for both the source and published artwork; no resizing or retouching.",
+            "zh": "生成 PNG 直接作为生成原图与发布图片共用，未缩放或修绘。"
+          }
+        }
+      }
+    ],
+    "references": [
+      {
+        "id": "photo",
+        "image": {
+          "src": "https://ailesson.io/content-assets/sha256/60/b6/60b6c57cd35766a133979b111ca77b6af62573386e88ae4b6c0e834613a1aad4.png",
+          "alt": {
+            "en": "A coastal bay viewed across a golden field, with wooded slopes, a small beach and hillside houses.",
+            "zh": "从金色田野俯瞰海湾，画面包含林木山坡、小海滩与山坡房屋。"
+          },
+          "width": 1400,
+          "height": 787,
+          "mimeType": "image/png"
+        },
+        "required": true
+      }
+    ],
+    "citations": [
+      {
+        "id": "style-context",
+        "claim": {
+          "en": "This source informed the choice of style family. The reusable prompt and generated example were authored independently; this is not a popularity ranking.",
+          "zh": "此来源用于选择风格类别。通用提示语与生成示例独立制作；不据此宣称喜爱度排名。"
+        },
+        "source": {
+          "title": "Identity Collage",
+          "publisher": "Critical Media Project",
+          "url": "https://criticalmediaproject.org/activities/identity-collage/",
+          "reviewedAt": "2026-09-07"
+        }
+      },
+      {
+        "id": "reference-photo",
+        "claim": {
+          "en": "The reference photograph is by Leticia Golubov, provided under Unsplash License.",
+          "zh": "参考照片由 Leticia Golubov 拍摄，以 Unsplash License 提供。"
+        },
+        "source": {
+          "title": "Coastal village nestled in a valley by the sea",
+          "publisher": "Unsplash / Leticia Golubov",
+          "url": "https://unsplash.com/photos/coastal-village-nestled-in-a-valley-by-the-sea-v6mz1osBv0M",
+          "reviewedAt": "2026-09-07"
+        }
+      },
+      {
+        "id": "photo-license",
+        "claim": {
+          "en": "The Unsplash License permits downloading, copying and modifying covered photos, including commercial use, subject to its exclusions. This is a license, not a claim that the photo has no copyright.",
+          "zh": "Unsplash License 允许下载、复制与修改适用照片，包含商业用途，但须遵循排除条款。这是使用许可，并不表示照片没有版权。"
+        },
+        "source": {
+          "title": "Unsplash License",
+          "publisher": "Unsplash",
+          "url": "https://unsplash.com/license",
+          "reviewedAt": "2026-09-07"
+        }
+      }
+    ]
+  },
+  {
+    "id": "two-color-linocuts",
+    "alias": "turn-photos-into-two-color-linocuts",
+    "name": {
+      "en": "Two-color linocut",
+      "zh": "双色油毡版画"
+    },
+    "summary": {
+      "en": "Turn a pet photo into an expressive relief-print illustration with two ink colors and carved paper-white marks.",
+      "zh": "用两种油墨色与纸白刻痕，将宠物照片转成有表现力的凸版印刷插画。"
+    },
+    "updatedAt": "2026-09-07",
+    "variables": [
+      {
+        "key": "subject",
+        "label": {
+          "en": "Essential elements",
+          "zh": "必须保留的元素"
+        },
+        "placeholder": {
+          "en": "The fluffy sleeping cat resting on the white windowsill, with its lowered head and hanging foreleg, the window on the left, and the ladder on the right.",
+          "zh": "趴在白色窗台上熟睡的蓬松猫咪、低垂的头与垂下的前腿、左侧窗户及右侧梯子。"
+        },
+        "multiline": true
+      },
+      {
+        "key": "palette",
+        "label": {
+          "en": "Palette and mood",
+          "zh": "配色与氛围"
+        },
+        "placeholder": {
+          "en": "Deep indigo and muted terracotta ink on warm cream paper; quiet afternoon, strong readable silhouettes.",
+          "zh": "暖奶油色纸上的深靛蓝与低饱和陶土红油墨，安静午后，轮廓清晰鲜明。"
+        },
+        "multiline": true
+      }
+    ],
+    "template": {
+      "en": "Transform the attached photo into artwork in this style: Two-color linocut.\n\nEssential elements: {{subject}}\nPalette and mood: {{palette}}\n\nReinterpret as a hand-pulled two-color linocut print. Use broad solid ink masses and confident carved white channels. Follow the animal's fur direction with sparse tapered gouge marks; build the room with larger geometric cuts. Reserve unprinted cream paper for the pale fur and window light. Ink edges may show slight hand-cut wobble and tiny printing imperfections, while the main silhouette stays clean. Keep the sleeping expression and body anatomy. No pencil cross-hatching, halftone dots, smooth gradients, wood-grain overlay or photographic shading. The two-color request describes an ink-print aesthetic, not guaranteed production-ready separations.\n\nUse the attached photograph as the only visual reference. Preserve its camera viewpoint, major silhouettes, relative positions, and recognizable subject. Simplify fine details without adding objects. Produce only the finished artwork, not a comparison, mockup or framed print. Keep the original landscape aspect ratio, at least 1400 pixels wide. No text, lettering, logos, signature or watermark; omit any signage visible in the photograph.",
+      "zh": "将上传照片转化为双色油毡版画。\n\n必须保留的元素：{{subject}}\n配色与氛围：{{palette}}\n\n转化为手工压印的双色油毡版画。使用大块实色油墨和明确的留白刻槽，以少量末端收尖的刀痕顺着毛发方向排列，室内采用更宽阔的几何刻面。浅色毛发与窗光保留为未上墨的奶油色纸面。墨色边缘可有轻微手工晃动与细小压印不匀，但主要轮廓保持干净，保留熟睡表情与身体结构。无铅笔交叉排线、半调网点、平滑渐变、木纹覆盖或摄影明暗。双色要求描述油墨印刷的视觉效果，不保证可生产的分色稿。\n\n以上传照片为唯一视觉参考，保留相机视角、主要轮廓、相对位置与可辨认的主体。简化细节，不添加物件。仅输出成品画作，不输出对比拼图、样机或带框印刷品。保持原图横向宽高比，宽度至少 1400 像素。不含文字、字母、标志、签名或水印；省略照片中原有的标牌文字。"
+    },
+    "instructions": {
+      "en": "Upload a photo and describe the elements to keep. Sample photo: Bryony Elena, Unsplash License; source and license links are listed below. The example was generated from the English template. The Chinese version is untested. The displayed example does not change as you type.",
+      "zh": "上传照片并描述需要保留的元素。示例摄影：Bryony Elena，采用 Unsplash License 授权；来源与许可链接见下方。示例使用英文模板生成，中文版本尚未测试。展示的示例不会随输入实时变化。"
+    },
+    "checks": [
+      {
+        "en": "Compare the main silhouette, viewpoint and left/right relationships with the uploaded photo.",
+        "zh": "对照上传照片，检查主要轮廓、视角与左右关系。"
+      },
+      {
+        "en": "Look for carved channels and directional fur marks, with the sleeping face and hanging limb still intact.",
+        "zh": "检查留白刻槽与毛发方向刀痕，确认熟睡面部和垂下的肢体结构保留。"
+      },
+      {
+        "en": "Inspect small features at full size and remove accidental lettering before sharing.",
+        "zh": "分享前放大检查细节，清除意外生成的文字。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "conversion",
+        "comparisonReferenceImageId": "photo",
+        "title": {
+          "en": "Sleeping by the window",
+          "zh": "窗边小憩"
+        },
+        "input": {
+          "en": {
+            "subject": "The fluffy sleeping cat resting on the white windowsill, with its lowered head and hanging foreleg, the window on the left, and the ladder on the right.",
+            "palette": "Deep indigo and muted terracotta ink on warm cream paper; quiet afternoon, strong readable silhouettes."
+          },
+          "zh": {
+            "subject": "趴在白色窗台上熟睡的蓬松猫咪、低垂的头与垂下的前腿、左侧窗户及右侧梯子。",
+            "palette": "暖奶油色纸上的深靛蓝与低饱和陶土红油墨，安静午后，轮廓清晰鲜明。"
+          }
+        },
+        "output": {
+          "src": "https://ailesson.io/content-assets/sha256/ef/e4/efe415278a1bf9b4eb9d23f60b8afbd2f6e4f4c921f8da5bf23f1ab0de4bf26d.png",
+          "alt": {
+            "en": "An indigo and terracotta linocut-style print of a sleeping cream cat beside a window and ladder.",
+            "zh": "靛蓝与陶土红双色油毡版画风格的熟睡奶油色猫咪，旁边为窗户与梯子。"
+          },
+          "width": 1537,
+          "height": 1023,
+          "mimeType": "image/png"
+        },
+        "source": {
+          "src": "https://ailesson.io/content-assets/sha256/ef/e4/efe415278a1bf9b4eb9d23f60b8afbd2f6e4f4c921f8da5bf23f1ab0de4bf26d.png",
+          "alt": {
+            "en": "An indigo and terracotta linocut-style print of a sleeping cream cat beside a window and ladder.",
+            "zh": "靛蓝与陶土红双色油毡版画风格的熟睡奶油色猫咪，旁边为窗户与梯子。"
+          },
+          "width": 1537,
+          "height": 1023,
+          "mimeType": "image/png"
+        },
+        "notes": {
+          "en": "The cat's pose, window and ladder are preserved with strong indigo and terracotta areas. Fine fur marks and a thin paper margin remain; this is simulated print texture, not an actual pulled print.",
+          "zh": "猫咪姿态、窗户与梯子保留，靛蓝和陶土红墨块鲜明。仍有细毛发刀痕与窄纸边，这是模拟印刷纹理，不是真实压印作品。"
+        },
+        "generation": {
+          "tool": "Built-in image_gen",
+          "date": "2026-09-07",
+          "promptLanguage": "en",
+          "prompt": "Transform the attached photo into artwork in this style: Two-color linocut.\n\nEssential elements: The fluffy sleeping cat resting on the white windowsill, with its lowered head and hanging foreleg, the window on the left, and the ladder on the right.\nPalette and mood: Deep indigo and muted terracotta ink on warm cream paper; quiet afternoon, strong readable silhouettes.\n\nReinterpret as a hand-pulled two-color linocut print. Use broad solid ink masses and confident carved white channels. Follow the animal's fur direction with sparse tapered gouge marks; build the room with larger geometric cuts. Reserve unprinted cream paper for the pale fur and window light. Ink edges may show slight hand-cut wobble and tiny printing imperfections, while the main silhouette stays clean. Keep the sleeping expression and body anatomy. No pencil cross-hatching, halftone dots, smooth gradients, wood-grain overlay or photographic shading. The two-color request describes an ink-print aesthetic, not guaranteed production-ready separations.\n\nUse the attached photograph as the only visual reference. Preserve its camera viewpoint, major silhouettes, relative positions, and recognizable subject. Simplify fine details without adding objects. Produce only the finished artwork, not a comparison, mockup or framed print. Keep the original landscape aspect ratio, at least 1400 pixels wide. No text, lettering, logos, signature or watermark; omit any signage visible in the photograph.",
+          "referenceImageIds": [
+            "photo"
+          ],
+          "postprocessing": {
+            "en": "The generated PNG is used unchanged for both the source and published artwork; no resizing or retouching.",
+            "zh": "生成 PNG 直接作为生成原图与发布图片共用，未缩放或修绘。"
+          }
+        }
+      }
+    ],
+    "references": [
+      {
+        "id": "photo",
+        "image": {
+          "src": "https://ailesson.io/content-assets/sha256/f7/74/f77456efd607639a92825d09289328963f260acd3c436972bab509d8405fc57e.png",
+          "alt": {
+            "en": "A fluffy pale cat asleep on a white windowsill, with a limb and tail hanging down and a ladder on the right.",
+            "zh": "浅色蓬松猫咪在白色窗台上熟睡，肢体与尾巴垂下，右侧有梯子。"
+          },
+          "width": 1400,
+          "height": 933,
+          "mimeType": "image/png"
+        },
+        "required": true
+      }
+    ],
+    "citations": [
+      {
+        "id": "style-context",
+        "claim": {
+          "en": "This source informed the choice of style family. The reusable prompt and generated example were authored independently; this is not a popularity ranking.",
+          "zh": "此来源用于选择风格类别。通用提示语与生成示例独立制作；不据此宣称喜爱度排名。"
+        },
+        "source": {
+          "title": "What is print?",
+          "publisher": "Victoria and Albert Museum",
+          "url": "https://www.vam.ac.uk/articles/what-is-print",
+          "reviewedAt": "2026-09-07"
+        }
+      },
+      {
+        "id": "reference-photo",
+        "claim": {
+          "en": "The reference photograph is by Bryony Elena, provided under Unsplash License.",
+          "zh": "参考照片由 Bryony Elena 拍摄，以 Unsplash License 提供。"
+        },
+        "source": {
+          "title": "White cat on white window",
+          "publisher": "Unsplash / Bryony Elena",
+          "url": "https://unsplash.com/photos/white-cat-on-white-window-3CklzznTHqk",
+          "reviewedAt": "2026-09-07"
+        }
+      },
+      {
+        "id": "photo-license",
+        "claim": {
+          "en": "The Unsplash License permits downloading, copying and modifying covered photos, including commercial use, subject to its exclusions. This is a license, not a claim that the photo has no copyright.",
+          "zh": "Unsplash License 允许下载、复制与修改适用照片，包含商业用途，但须遵循排除条款。这是使用许可，并不表示照片没有版权。"
+        },
+        "source": {
+          "title": "Unsplash License",
+          "publisher": "Unsplash",
+          "url": "https://unsplash.com/license",
+          "reviewedAt": "2026-09-07"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cyanotype-prints",
+    "alias": "turn-photos-into-cyanotype-prints",
+    "name": {
+      "en": "Cyanotype print",
+      "zh": "蓝晒印相"
+    },
+    "summary": {
+      "en": "Translate a flower or still-life photo into luminous blue-and-white tones inspired by photographic cyanotypes.",
+      "zh": "将花卉或静物照片转成明亮蓝白影调，模拟摄影蓝晒的纸面效果。"
+    },
+    "updatedAt": "2026-09-07",
+    "variables": [
+      {
+        "key": "subject",
+        "label": {
+          "en": "Essential elements",
+          "zh": "必须保留的元素"
+        },
+        "placeholder": {
+          "en": "Pink tulips and long green leaves in a clear glass vase slightly left of center, a raffia bow around its neck, the large wicker basket on the right, and softly lit windows behind.",
+          "zh": "画面偏左透明玻璃瓶中的粉色郁金香与修长绿叶、瓶口的拉菲草结、右侧的大藤篮，以及后方透光的窗户。"
+        },
+        "multiline": true
+      },
+      {
+        "key": "palette",
+        "label": {
+          "en": "Palette and mood",
+          "zh": "配色与氛围"
+        },
+        "placeholder": {
+          "en": "Prussian blue through pale blue to paper white only; luminous botanical forms and quiet deep-blue surroundings.",
+          "zh": "仅使用普鲁士蓝、浅蓝至纸白的影调，植物形态明亮，周围深蓝安静。"
+        },
+        "multiline": true
+      }
+    ],
+    "template": {
+      "en": "Transform the attached photo into artwork in this style: Cyanotype print.\n\nEssential elements: {{subject}}\nPalette and mood: {{palette}}\n\nCreate a digital interpretation of a photographic cyanotype made from a negative. Keep the complete still-life composition, but translate it into rich Prussian-blue shadows, nuanced pale-blue midtones and clean paper-white highlights. Make the tulip petals and leaf veins luminous and readable against darker surroundings; preserve the vase and basket rather than isolating only a plant silhouette. Add subtle absorbent paper texture and delicate exposure variation near the outer edges. No added specimen labels, botanical names, decorative frame, sepia tint or colored flowers. This is a simulated photographic cyanotype appearance, not an actual contact photogram or a chemical-process demonstration.\n\nUse the attached photograph as the only visual reference. Preserve its camera viewpoint, major silhouettes, relative positions, and recognizable subject. Simplify fine details without adding objects. Produce only the finished artwork, not a comparison, mockup or framed print. Keep the original landscape aspect ratio, at least 1400 pixels wide. No text, lettering, logos, signature or watermark; omit any signage visible in the photograph.",
+      "zh": "将上传照片转化为蓝晒印相。\n\n必须保留的元素：{{subject}}\n配色与氛围：{{palette}}\n\n创作以照片负片制成蓝晒印相的数字化转译。保留完整静物构图，将影调转为浓郁普鲁士蓝阴影、细腻浅蓝中间调与干净纸白高光。让郁金香花瓣与叶脉在较暗环境中明亮可辨，保留花瓶与藤篮，不只提取植物剪影。加入细微吸水纸纹和外缘轻微曝光变化。不添加标本标签、植物名称、装饰边框、棕褐色调或彩色花朵。这是模拟摄影蓝晒的视觉效果，不是真实接触式物影照片或化学工艺演示。\n\n以上传照片为唯一视觉参考，保留相机视角、主要轮廓、相对位置与可辨认的主体。简化细节，不添加物件。仅输出成品画作，不输出对比拼图、样机或带框印刷品。保持原图横向宽高比，宽度至少 1400 像素。不含文字、字母、标志、签名或水印；省略照片中原有的标牌文字。"
+    },
+    "instructions": {
+      "en": "Upload a photo and describe the elements to keep. Sample photo: Jez Timms, CC0 1.0; source and license links are listed below. The example was generated from the English template. The Chinese version is untested. The displayed example does not change as you type.",
+      "zh": "上传照片并描述需要保留的元素。示例摄影：Jez Timms，采用 CC0 1.0 授权；来源与许可链接见下方。示例使用英文模板生成，中文版本尚未测试。展示的示例不会随输入实时变化。"
+    },
+    "checks": [
+      {
+        "en": "Compare the main silhouette, viewpoint and left/right relationships with the uploaded photo.",
+        "zh": "对照上传照片，检查主要轮廓、视角与左右关系。"
+      },
+      {
+        "en": "Keep petals, leaves and the vase readable across the blue midtones; avoid losing the entire subject in one dark silhouette.",
+        "zh": "检查花瓣、叶片与花瓶在蓝色中间调中是否可辨，避免主体全变成一片深色剪影。"
+      },
+      {
+        "en": "Inspect small features at full size and remove accidental lettering before sharing.",
+        "zh": "分享前放大检查细节，清除意外生成的文字。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "conversion",
+        "comparisonReferenceImageId": "photo",
+        "title": {
+          "en": "Tulips by the window",
+          "zh": "窗前郁金香"
+        },
+        "input": {
+          "en": {
+            "subject": "Pink tulips and long green leaves in a clear glass vase slightly left of center, a raffia bow around its neck, the large wicker basket on the right, and softly lit windows behind.",
+            "palette": "Prussian blue through pale blue to paper white only; luminous botanical forms and quiet deep-blue surroundings."
+          },
+          "zh": {
+            "subject": "画面偏左透明玻璃瓶中的粉色郁金香与修长绿叶、瓶口的拉菲草结、右侧的大藤篮，以及后方透光的窗户。",
+            "palette": "仅使用普鲁士蓝、浅蓝至纸白的影调，植物形态明亮，周围深蓝安静。"
+          }
+        },
+        "output": {
+          "src": "https://ailesson.io/content-assets/sha256/c0/27/c027013d73e6427621a58ecf113675664dfb43aa2f20d8ba7bf146b65a34aa87.png",
+          "alt": {
+            "en": "A blue-and-white cyanotype-style still life with tulips, a glass vase and a wicker basket.",
+            "zh": "蓝白影调的蓝晒风格静物，包含郁金香、玻璃花瓶与藤篮。"
+          },
+          "width": 1537,
+          "height": 1023,
+          "mimeType": "image/png"
+        },
+        "source": {
+          "src": "https://ailesson.io/content-assets/sha256/c0/27/c027013d73e6427621a58ecf113675664dfb43aa2f20d8ba7bf146b65a34aa87.png",
+          "alt": {
+            "en": "A blue-and-white cyanotype-style still life with tulips, a glass vase and a wicker basket.",
+            "zh": "蓝白影调的蓝晒风格静物，包含郁金香、玻璃花瓶与藤篮。"
+          },
+          "width": 1537,
+          "height": 1023,
+          "mimeType": "image/png"
+        },
+        "notes": {
+          "en": "The flowers, vase and basket stay recognizable in blue-to-white tones. The outer edge has an uneven exposure-like margin and fine forms are sharpened; it is a generated simulation, not a physical cyanotype.",
+          "zh": "花朵、花瓶与藤篮在蓝白影调中保持可辨，外缘呈现不均匀曝光般的纸边，细部有所锐化。这是生成模拟图，不是实体蓝晒作品。"
+        },
+        "generation": {
+          "tool": "Built-in image_gen",
+          "date": "2026-09-07",
+          "promptLanguage": "en",
+          "prompt": "Transform the attached photo into artwork in this style: Cyanotype print.\n\nEssential elements: Pink tulips and long green leaves in a clear glass vase slightly left of center, a raffia bow around its neck, the large wicker basket on the right, and softly lit windows behind.\nPalette and mood: Prussian blue through pale blue to paper white only; luminous botanical forms and quiet deep-blue surroundings.\n\nCreate a digital interpretation of a photographic cyanotype made from a negative. Keep the complete still-life composition, but translate it into rich Prussian-blue shadows, nuanced pale-blue midtones and clean paper-white highlights. Make the tulip petals and leaf veins luminous and readable against darker surroundings; preserve the vase and basket rather than isolating only a plant silhouette. Add subtle absorbent paper texture and delicate exposure variation near the outer edges. No added specimen labels, botanical names, decorative frame, sepia tint or colored flowers. This is a simulated photographic cyanotype appearance, not an actual contact photogram or a chemical-process demonstration.\n\nUse the attached photograph as the only visual reference. Preserve its camera viewpoint, major silhouettes, relative positions, and recognizable subject. Simplify fine details without adding objects. Produce only the finished artwork, not a comparison, mockup or framed print. Keep the original landscape aspect ratio, at least 1400 pixels wide. No text, lettering, logos, signature or watermark; omit any signage visible in the photograph.",
+          "referenceImageIds": [
+            "photo"
+          ],
+          "postprocessing": {
+            "en": "The generated PNG is used unchanged for both the source and published artwork; no resizing or retouching.",
+            "zh": "生成 PNG 直接作为生成原图与发布图片共用，未缩放或修绘。"
+          }
+        }
+      }
+    ],
+    "references": [
+      {
+        "id": "photo",
+        "image": {
+          "src": "https://ailesson.io/content-assets/sha256/40/30/4030559193d5c3911193c6375bda8d56b31796aaaedbd1e8c8ded0bd2b567abc.png",
+          "alt": {
+            "en": "Pink tulips in a clear glass vase with a raffia bow beside a wicker basket in front of windows.",
+            "zh": "窗前透明玻璃瓶中的粉色郁金香，瓶口系有拉菲草结，旁边放着藤篮。"
+          },
+          "width": 1280,
+          "height": 854,
+          "mimeType": "image/png"
+        },
+        "required": true
+      }
+    ],
+    "citations": [
+      {
+        "id": "style-context",
+        "claim": {
+          "en": "This source informed the choice of style family. The reusable prompt and generated example were authored independently; this is not a popularity ranking.",
+          "zh": "此来源用于选择风格类别。通用提示语与生成示例独立制作；不据此宣称喜爱度排名。"
+        },
+        "source": {
+          "title": "Anna Atkins's cyanotypes: the first book of photographs",
+          "publisher": "Natural History Museum",
+          "url": "https://www.nhm.ac.uk/discover/anna-atkins-cyanotypes-the-first-book-of-photographs.html",
+          "reviewedAt": "2026-09-07"
+        }
+      },
+      {
+        "id": "reference-photo",
+        "claim": {
+          "en": "The reference photograph is by Jez Timms, provided under CC0 1.0.",
+          "zh": "参考照片由 Jez Timms 拍摄，以 CC0 1.0 提供。"
+        },
+        "source": {
+          "title": "Rustic tulip vase (Unsplash)",
+          "publisher": "Wikimedia Commons / Jez Timms",
+          "url": "https://commons.wikimedia.org/wiki/File:Rustic_tulip_vase_(Unsplash).jpg",
+          "reviewedAt": "2026-09-07"
+        }
+      },
+      {
+        "id": "photo-license",
+        "claim": {
+          "en": "CC0 permits copying and adapting this photograph; the file page records the dedication.",
+          "zh": "CC0 允许复制和改编该照片；文件页记录了相应授权。"
+        },
+        "source": {
+          "title": "CC0 1.0",
+          "publisher": "Creative Commons",
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "reviewedAt": "2026-09-07"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stained-glass-panels",
+    "alias": "turn-photos-into-stained-glass-panels",
+    "name": {
+      "en": "Stained-glass panel",
+      "zh": "彩色玻璃画"
+    },
+    "summary": {
+      "en": "Reimagine flowers and still lifes as translucent glass pieces with dark seams and gentle backlight.",
+      "zh": "用透光玻璃片、深色接缝与柔和背光，将花卉静物转成彩色玻璃画。"
+    },
+    "updatedAt": "2026-09-07",
+    "variables": [
+      {
+        "key": "subject",
+        "label": {
+          "en": "Essential elements",
+          "zh": "必须保留的元素"
+        },
+        "placeholder": {
+          "en": "Pink tulips and long green leaves in a clear glass vase slightly left of center, a raffia bow around its neck, the large wicker basket on the right, and softly lit windows behind.",
+          "zh": "画面偏左透明玻璃瓶中的粉色郁金香与修长绿叶、瓶口的拉菲草结、右侧的大藤篮，以及后方透光的窗户。"
+        },
+        "multiline": true
+      },
+      {
+        "key": "palette",
+        "label": {
+          "en": "Palette and mood",
+          "zh": "配色与氛围"
+        },
+        "placeholder": {
+          "en": "Rose and ruby petals, sage and emerald leaves, pale aqua windows, amber wicker and clear milky glass highlights; gentle backlighting.",
+          "zh": "玫瑰粉与宝石红花瓣、鼠尾草绿与祖母绿叶片、浅水蓝窗户、琥珀色藤篮及乳白透光高光，柔和背光。"
+        },
+        "multiline": true
+      }
+    ],
+    "template": {
+      "en": "Transform the attached photo into artwork in this style: Stained-glass panel.\n\nEssential elements: {{subject}}\nPalette and mood: {{palette}}\n\nTranslate the still life into a luminous stained-glass artwork viewed straight on, filling the image without showing a wall or external frame. Build recognizable flowers, leaves, vase and basket from intentionally shaped glass pieces bounded by slender dark lead-like seams. Let seams follow major forms and avoid arbitrary cracks across petals. Keep foreground pieces larger and readable, with restrained smaller pieces in the background. Use subtly rippled translucent glass, internal color variation and soft transmitted light, never a shiny mosaic of tiny fragments. Preserve the photo's spatial arrangement. No religious symbols, lettering, extra ornaments, starbursts or dramatic lens flare. This is concept art, not a fabrication pattern.\n\nUse the attached photograph as the only visual reference. Preserve its camera viewpoint, major silhouettes, relative positions, and recognizable subject. Simplify fine details without adding objects. Produce only the finished artwork, not a comparison, mockup or framed print. Keep the original landscape aspect ratio, at least 1400 pixels wide. No text, lettering, logos, signature or watermark; omit any signage visible in the photograph.",
+      "zh": "将上传照片转化为彩色玻璃画。\n\n必须保留的元素：{{subject}}\n配色与氛围：{{palette}}\n\n将静物转成正面观看的透光彩色玻璃画，画面铺满图片，不展示墙壁或外部画框。用有意塑形的玻璃片组成可辨认的花朵、叶片、花瓶与藤篮，以细窄深色铅条般的接缝划分。接缝顺着主要形体排列，避免任意裂纹穿过花瓣。前景玻璃片较大且清楚，背景仅使用克制的小片。呈现轻微波纹半透明玻璃、内部色彩变化与柔和透射光，避免大量亮面碎片马赛克。保留原照空间关系，无宗教符号、文字、额外装饰、星芒或强烈镜头眩光。这是概念插画，不是制作图纸。\n\n以上传照片为唯一视觉参考，保留相机视角、主要轮廓、相对位置与可辨认的主体。简化细节，不添加物件。仅输出成品画作，不输出对比拼图、样机或带框印刷品。保持原图横向宽高比，宽度至少 1400 像素。不含文字、字母、标志、签名或水印；省略照片中原有的标牌文字。"
+    },
+    "instructions": {
+      "en": "Upload a photo and describe the elements to keep. Sample photo: Jez Timms, CC0 1.0; source and license links are listed below. The example was generated from the English template. The Chinese version is untested. The displayed example does not change as you type.",
+      "zh": "上传照片并描述需要保留的元素。示例摄影：Jez Timms，采用 CC0 1.0 授权；来源与许可链接见下方。示例使用英文模板生成，中文版本尚未测试。展示的示例不会随输入实时变化。"
+    },
+    "checks": [
+      {
+        "en": "Compare the main silhouette, viewpoint and left/right relationships with the uploaded photo.",
+        "zh": "对照上传照片，检查主要轮廓、视角与左右关系。"
+      },
+      {
+        "en": "Check that glass pieces follow the main forms and that backlighting reveals color without washing out the flowers.",
+        "zh": "检查玻璃片是否顺着主要形体划分，背光是否显色而不冲淡花朵。"
+      },
+      {
+        "en": "Inspect small features at full size and remove accidental lettering before sharing.",
+        "zh": "分享前放大检查细节，清除意外生成的文字。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "conversion",
+        "comparisonReferenceImageId": "photo",
+        "title": {
+          "en": "Tulips by the window",
+          "zh": "窗前郁金香"
+        },
+        "input": {
+          "en": {
+            "subject": "Pink tulips and long green leaves in a clear glass vase slightly left of center, a raffia bow around its neck, the large wicker basket on the right, and softly lit windows behind.",
+            "palette": "Rose and ruby petals, sage and emerald leaves, pale aqua windows, amber wicker and clear milky glass highlights; gentle backlighting."
+          },
+          "zh": {
+            "subject": "画面偏左透明玻璃瓶中的粉色郁金香与修长绿叶、瓶口的拉菲草结、右侧的大藤篮，以及后方透光的窗户。",
+            "palette": "玫瑰粉与宝石红花瓣、鼠尾草绿与祖母绿叶片、浅水蓝窗户、琥珀色藤篮及乳白透光高光，柔和背光。"
+          }
+        },
+        "output": {
+          "src": "https://ailesson.io/content-assets/sha256/93/8b/938b7791b1ae0c7ac8fc55b3c387c988fabf0a8bfdf23f476fd158a1ae1c9321.png",
+          "alt": {
+            "en": "Pink tulips and a wicker basket reinterpreted as luminous stained glass with green leaves and amber glass sections.",
+            "zh": "粉色郁金香与藤篮被转译为透光彩色玻璃，搭配绿色叶片和琥珀色玻璃区域。"
+          },
+          "width": 1537,
+          "height": 1023,
+          "mimeType": "image/png"
+        },
+        "source": {
+          "src": "https://ailesson.io/content-assets/sha256/93/8b/938b7791b1ae0c7ac8fc55b3c387c988fabf0a8bfdf23f476fd158a1ae1c9321.png",
+          "alt": {
+            "en": "Pink tulips and a wicker basket reinterpreted as luminous stained glass with green leaves and amber glass sections.",
+            "zh": "粉色郁金香与藤篮被转译为透光彩色玻璃，搭配绿色叶片和琥珀色玻璃区域。"
+          },
+          "width": 1537,
+          "height": 1023,
+          "mimeType": "image/png"
+        },
+        "notes": {
+          "en": "The tulips, vase, bow and basket retain their arrangement, with translucent color and dark seams. The basket and background contain many small divisions; it is not a fabrication-ready glass pattern.",
+          "zh": "郁金香、花瓶、草结和藤篮的位置保留，透光色彩与深色接缝明显。藤篮和背景有较多细分玻璃片，不是可直接制作的玻璃图纸。"
+        },
+        "generation": {
+          "tool": "Built-in image_gen",
+          "date": "2026-09-07",
+          "promptLanguage": "en",
+          "prompt": "Transform the attached photo into artwork in this style: Stained-glass panel.\n\nEssential elements: Pink tulips and long green leaves in a clear glass vase slightly left of center, a raffia bow around its neck, the large wicker basket on the right, and softly lit windows behind.\nPalette and mood: Rose and ruby petals, sage and emerald leaves, pale aqua windows, amber wicker and clear milky glass highlights; gentle backlighting.\n\nTranslate the still life into a luminous stained-glass artwork viewed straight on, filling the image without showing a wall or external frame. Build recognizable flowers, leaves, vase and basket from intentionally shaped glass pieces bounded by slender dark lead-like seams. Let seams follow major forms and avoid arbitrary cracks across petals. Keep foreground pieces larger and readable, with restrained smaller pieces in the background. Use subtly rippled translucent glass, internal color variation and soft transmitted light, never a shiny mosaic of tiny fragments. Preserve the photo's spatial arrangement. No religious symbols, lettering, extra ornaments, starbursts or dramatic lens flare. This is concept art, not a fabrication pattern.\n\nUse the attached photograph as the only visual reference. Preserve its camera viewpoint, major silhouettes, relative positions, and recognizable subject. Simplify fine details without adding objects. Produce only the finished artwork, not a comparison, mockup or framed print. Keep the original landscape aspect ratio, at least 1400 pixels wide. No text, lettering, logos, signature or watermark; omit any signage visible in the photograph.",
+          "referenceImageIds": [
+            "photo"
+          ],
+          "postprocessing": {
+            "en": "The generated PNG is used unchanged for both the source and published artwork; no resizing or retouching.",
+            "zh": "生成 PNG 直接作为生成原图与发布图片共用，未缩放或修绘。"
+          }
+        }
+      }
+    ],
+    "references": [
+      {
+        "id": "photo",
+        "image": {
+          "src": "https://ailesson.io/content-assets/sha256/40/30/4030559193d5c3911193c6375bda8d56b31796aaaedbd1e8c8ded0bd2b567abc.png",
+          "alt": {
+            "en": "Pink tulips in a clear glass vase with a raffia bow beside a wicker basket in front of windows.",
+            "zh": "窗前透明玻璃瓶中的粉色郁金香，瓶口系有拉菲草结，旁边放着藤篮。"
+          },
+          "width": 1280,
+          "height": 854,
+          "mimeType": "image/png"
+        },
+        "required": true
+      }
+    ],
+    "citations": [
+      {
+        "id": "style-context",
+        "claim": {
+          "en": "This source informed the choice of style family. The reusable prompt and generated example were authored independently; this is not a popularity ranking.",
+          "zh": "此来源用于选择风格类别。通用提示语与生成示例独立制作；不据此宣称喜爱度排名。"
+        },
+        "source": {
+          "title": "How was it made? Stained glass",
+          "publisher": "Victoria and Albert Museum",
+          "url": "https://www.vam.ac.uk/articles/how-was-it-made-stained-glass/",
+          "reviewedAt": "2026-09-07"
+        }
+      },
+      {
+        "id": "reference-photo",
+        "claim": {
+          "en": "The reference photograph is by Jez Timms, provided under CC0 1.0.",
+          "zh": "参考照片由 Jez Timms 拍摄，以 CC0 1.0 提供。"
+        },
+        "source": {
+          "title": "Rustic tulip vase (Unsplash)",
+          "publisher": "Wikimedia Commons / Jez Timms",
+          "url": "https://commons.wikimedia.org/wiki/File:Rustic_tulip_vase_(Unsplash).jpg",
+          "reviewedAt": "2026-09-07"
+        }
+      },
+      {
+        "id": "photo-license",
+        "claim": {
+          "en": "CC0 permits copying and adapting this photograph; the file page records the dedication.",
+          "zh": "CC0 允许复制和改编该照片；文件页记录了相应授权。"
+        },
+        "source": {
+          "title": "CC0 1.0",
+          "publisher": "Creative Commons",
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "reviewedAt": "2026-09-07"
+        }
+      }
+    ]
+  },
+  {
+    "id": "neon-contour-art",
+    "alias": "turn-photos-into-neon-contour-art",
+    "name": {
+      "en": "Neon contour artwork",
+      "zh": "霓虹轮廓线"
+    },
+    "summary": {
+      "en": "Reduce a familiar subject to luminous cyan contours with generous dark space and a restrained halo.",
+      "zh": "将熟悉的主体归纳为青色发光轮廓，以充足暗部留白和克制光晕呈现未来感。"
+    },
+    "updatedAt": "2026-09-07",
+    "variables": [
+      {
+        "key": "subject",
+        "label": {
+          "en": "Essential elements",
+          "zh": "必须保留的元素"
+        },
+        "placeholder": {
+          "en": "The fluffy sleeping cat resting on the white windowsill, with its lowered head and hanging foreleg, the window on the left, and the ladder on the right.",
+          "zh": "趴在白色窗台上熟睡的蓬松猫咪、低垂的头与垂下的前腿、左侧窗户及右侧梯子。"
+        },
+        "multiline": true
+      },
+      {
+        "key": "palette",
+        "label": {
+          "en": "Palette and mood",
+          "zh": "配色与氛围"
+        },
+        "placeholder": {
+          "en": "Icy cyan contours with a very small violet accent on a near-black navy background; calm futuristic atmosphere.",
+          "zh": "近黑海军蓝背景上的冰青色轮廓，搭配极少量紫罗兰点缀，安静的未来感。"
+        },
+        "multiline": true
+      }
+    ],
+    "template": {
+      "en": "Transform the attached photo into artwork in this style: Neon contour artwork.\n\nEssential elements: {{subject}}\nPalette and mood: {{palette}}\n\nRedraw the photograph as refined luminous contour-line art. Use sparse continuous light filaments to describe the subject's outer silhouette and a few essential inner features. Preserve the sleeping cat's closed eyes, muzzle, hanging paw and tail. Reduce the window and ladder to a few dim architectural lines, making the subject brighter than its surroundings. Keep most areas dark and empty; do not trace every hair or fill surfaces with neon. Use a narrow bright line core and only a restrained soft halo. No visible neon-tube hardware, text, grids, particles, lens flares, cyberpunk signs, solid painted fills or rainbow gradients.\n\nUse the attached photograph as the only visual reference. Preserve its camera viewpoint, major silhouettes, relative positions, and recognizable subject. Simplify fine details without adding objects. Produce only the finished artwork, not a comparison, mockup or framed print. Keep the original landscape aspect ratio, at least 1400 pixels wide. No text, lettering, logos, signature or watermark; omit any signage visible in the photograph.",
+      "zh": "将上传照片转化为霓虹轮廓线。\n\n必须保留的元素：{{subject}}\n配色与氛围：{{palette}}\n\n将照片重绘为精致的发光轮廓线艺术。用稀疏连续光丝描述主体外轮廓及少量关键内部特征，保留猫咪闭合的眼睛、口鼻、垂下的爪子与尾巴。窗户和梯子简化为少量较暗建筑线，主体亮于环境。大部分区域保持暗色留空，不描出每根毛，也不以霓虹填满表面。线条中心细亮，仅带克制柔光。无可见灯管五金、文字、网格、粒子、镜头眩光、赛博朋克招牌、实色涂面或彩虹渐变。\n\n以上传照片为唯一视觉参考，保留相机视角、主要轮廓、相对位置与可辨认的主体。简化细节，不添加物件。仅输出成品画作，不输出对比拼图、样机或带框印刷品。保持原图横向宽高比，宽度至少 1400 像素。不含文字、字母、标志、签名或水印；省略照片中原有的标牌文字。"
+    },
+    "instructions": {
+      "en": "Upload a photo and describe the elements to keep. Sample photo: Bryony Elena, Unsplash License; source and license links are listed below. The example was generated from the English template. The Chinese version is untested. The displayed example does not change as you type.",
+      "zh": "上传照片并描述需要保留的元素。示例摄影：Bryony Elena，采用 Unsplash License 授权；来源与许可链接见下方。示例使用英文模板生成，中文版本尚未测试。展示的示例不会随输入实时变化。"
+    },
+    "checks": [
+      {
+        "en": "Compare the main silhouette, viewpoint and left/right relationships with the uploaded photo.",
+        "zh": "对照上传照片，检查主要轮廓、视角与左右关系。"
+      },
+      {
+        "en": "Check the eyes, muzzle and silhouette; background lines should be dimmer and the glow should not merge nearby features.",
+        "zh": "检查眼睛、口鼻与轮廓，背景线应更暗，光晕不应让相邻特征粘连。"
+      },
+      {
+        "en": "Inspect small features at full size and remove accidental lettering before sharing.",
+        "zh": "分享前放大检查细节，清除意外生成的文字。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "conversion",
+        "comparisonReferenceImageId": "photo",
+        "title": {
+          "en": "Sleeping by the window",
+          "zh": "窗边小憩"
+        },
+        "input": {
+          "en": {
+            "subject": "The fluffy sleeping cat resting on the white windowsill, with its lowered head and hanging foreleg, the window on the left, and the ladder on the right.",
+            "palette": "Icy cyan contours with a very small violet accent on a near-black navy background; calm futuristic atmosphere."
+          },
+          "zh": {
+            "subject": "趴在白色窗台上熟睡的蓬松猫咪、低垂的头与垂下的前腿、左侧窗户及右侧梯子。",
+            "palette": "近黑海军蓝背景上的冰青色轮廓，搭配极少量紫罗兰点缀，安静的未来感。"
+          }
+        },
+        "output": {
+          "src": "https://ailesson.io/content-assets/sha256/ad/4f/ad4f4c064e4180d2cab6164a477b4874257efb6fa0fbdb511b06a31a3fcaae33.png",
+          "alt": {
+            "en": "A sleeping cat outlined in cyan light beside dim window and ladder contours on a dark navy background.",
+            "zh": "深海军蓝背景上的青色光线熟睡猫咪，窗户和梯子轮廓较暗。"
+          },
+          "width": 1537,
+          "height": 1023,
+          "mimeType": "image/png"
+        },
+        "source": {
+          "src": "https://ailesson.io/content-assets/sha256/ad/4f/ad4f4c064e4180d2cab6164a477b4874257efb6fa0fbdb511b06a31a3fcaae33.png",
+          "alt": {
+            "en": "A sleeping cat outlined in cyan light beside dim window and ladder contours on a dark navy background.",
+            "zh": "深海军蓝背景上的青色光线熟睡猫咪，窗户和梯子轮廓较暗。"
+          },
+          "width": 1537,
+          "height": 1023,
+          "mimeType": "image/png"
+        },
+        "notes": {
+          "en": "The cat, hanging paw and tail are clear in luminous contours. The eyes look more open than in the reference, and some window edges are as bright as the subject; the image is a stylized interpretation.",
+          "zh": "猫咪、垂爪与尾巴以发光轮廓清楚呈现。眼睛比参考照片更像睁开状态，部分窗边线条与主体同样明亮，成图属于风格化转译。"
+        },
+        "generation": {
+          "tool": "Built-in image_gen",
+          "date": "2026-09-07",
+          "promptLanguage": "en",
+          "prompt": "Transform the attached photo into artwork in this style: Neon contour artwork.\n\nEssential elements: The fluffy sleeping cat resting on the white windowsill, with its lowered head and hanging foreleg, the window on the left, and the ladder on the right.\nPalette and mood: Icy cyan contours with a very small violet accent on a near-black navy background; calm futuristic atmosphere.\n\nRedraw the photograph as refined luminous contour-line art. Use sparse continuous light filaments to describe the subject's outer silhouette and a few essential inner features. Preserve the sleeping cat's closed eyes, muzzle, hanging paw and tail. Reduce the window and ladder to a few dim architectural lines, making the subject brighter than its surroundings. Keep most areas dark and empty; do not trace every hair or fill surfaces with neon. Use a narrow bright line core and only a restrained soft halo. No visible neon-tube hardware, text, grids, particles, lens flares, cyberpunk signs, solid painted fills or rainbow gradients.\n\nUse the attached photograph as the only visual reference. Preserve its camera viewpoint, major silhouettes, relative positions, and recognizable subject. Simplify fine details without adding objects. Produce only the finished artwork, not a comparison, mockup or framed print. Keep the original landscape aspect ratio, at least 1400 pixels wide. No text, lettering, logos, signature or watermark; omit any signage visible in the photograph.",
+          "referenceImageIds": [
+            "photo"
+          ],
+          "postprocessing": {
+            "en": "The generated PNG is used unchanged for both the source and published artwork; no resizing or retouching.",
+            "zh": "生成 PNG 直接作为生成原图与发布图片共用，未缩放或修绘。"
+          }
+        }
+      }
+    ],
+    "references": [
+      {
+        "id": "photo",
+        "image": {
+          "src": "https://ailesson.io/content-assets/sha256/f7/74/f77456efd607639a92825d09289328963f260acd3c436972bab509d8405fc57e.png",
+          "alt": {
+            "en": "A fluffy pale cat asleep on a white windowsill, with a limb and tail hanging down and a ladder on the right.",
+            "zh": "浅色蓬松猫咪在白色窗台上熟睡，肢体与尾巴垂下，右侧有梯子。"
+          },
+          "width": 1400,
+          "height": 933,
+          "mimeType": "image/png"
+        },
+        "required": true
+      }
+    ],
+    "citations": [
+      {
+        "id": "style-context",
+        "claim": {
+          "en": "This source informed the choice of style family. The reusable prompt and generated example were authored independently; this is not a popularity ranking.",
+          "zh": "此来源用于选择风格类别。通用提示语与生成示例独立制作；不据此宣称喜爱度排名。"
+        },
+        "source": {
+          "title": "Rendering",
+          "publisher": "Blender",
+          "url": "https://www.blender.org/features/rendering/",
+          "reviewedAt": "2026-09-07"
+        }
+      },
+      {
+        "id": "reference-photo",
+        "claim": {
+          "en": "The reference photograph is by Bryony Elena, provided under Unsplash License.",
+          "zh": "参考照片由 Bryony Elena 拍摄，以 Unsplash License 提供。"
+        },
+        "source": {
+          "title": "White cat on white window",
+          "publisher": "Unsplash / Bryony Elena",
+          "url": "https://unsplash.com/photos/white-cat-on-white-window-3CklzznTHqk",
+          "reviewedAt": "2026-09-07"
+        }
+      },
+      {
+        "id": "photo-license",
+        "claim": {
+          "en": "The Unsplash License permits downloading, copying and modifying covered photos, including commercial use, subject to its exclusions. This is a license, not a claim that the photo has no copyright.",
+          "zh": "Unsplash License 允许下载、复制与修改适用照片，包含商业用途，但须遵循排除条款。这是使用许可，并不表示照片没有版权。"
+        },
+        "source": {
+          "title": "Unsplash License",
+          "publisher": "Unsplash",
+          "url": "https://unsplash.com/license",
+          "reviewedAt": "2026-09-07"
+        }
+      }
+    ]
+  },
+  {
+    "id": "digital-wireframe-landscapes",
+    "alias": "turn-photos-into-digital-wireframe-landscapes",
+    "name": {
+      "en": "Digital wireframe landscape",
+      "zh": "数字线框地景"
+    },
+    "summary": {
+      "en": "Rebuild a landscape as fine architectural mesh lines, quiet dark planes and a small luminous focal accent.",
+      "zh": "将风景重建为精细建筑网格线、安静暗色平面和少量发光焦点。"
+    },
+    "updatedAt": "2026-09-07",
+    "variables": [
+      {
+        "key": "subject",
+        "label": {
+          "en": "Essential elements",
+          "zh": "必须保留的元素"
+        },
+        "placeholder": {
+          "en": "The descending golden meadow, dark green trees on the left, small beach near the center, hillside village on the right, and broad bay with a distant headland.",
+          "zh": "向下延伸的金色草坡、左侧深绿树丛、中央附近的小海滩、右侧山坡村庄，以及宽阔海湾与远处岬角。"
+        },
+        "multiline": true
+      },
+      {
+        "key": "palette",
+        "label": {
+          "en": "Palette and mood",
+          "zh": "配色与氛围"
+        },
+        "placeholder": {
+          "en": "Cool white and pale cyan mesh lines on deep midnight blue; a small electric-lime shoreline accent.",
+          "zh": "深午夜蓝底上的冷白与浅青网格线，海岸线仅用少量电光青柠色点缀。"
+        },
+        "multiline": true
+      }
+    ],
+    "template": {
+      "en": "Transform the attached photo into artwork in this style: Digital wireframe landscape.\n\nEssential elements: {{subject}}\nPalette and mood: {{palette}}\n\nReconstruct the landscape as a clean futuristic architectural wireframe visualization. Describe hills using a moderately spaced coherent triangular terrain mesh that follows the slopes. Draw houses as simple fine-line volumes; keep the bay as a quiet dark plane with only a few long perspective lines. Make the closest mesh edges slightly brighter and thicker, and distant edges finer and dimmer. Preserve the recognizable headland, beach and hillside settlement. Avoid uniform screen-space grids, random laser scribbles, dense glowing fog, surface photo textures and invented skyscrapers. The geometry is a stylized visual interpretation, not surveyed topography or a recoverable 3D mesh. No axis markers, coordinates, labels, HUD, border or text.\n\nUse the attached photograph as the only visual reference. Preserve its camera viewpoint, major silhouettes, relative positions, and recognizable subject. Simplify fine details without adding objects. Produce only the finished artwork, not a comparison, mockup or framed print. Keep the original landscape aspect ratio, at least 1400 pixels wide. No text, lettering, logos, signature or watermark; omit any signage visible in the photograph.",
+      "zh": "将上传照片转化为数字线框地景。\n\n必须保留的元素：{{subject}}\n配色与氛围：{{palette}}\n\n将风景重构为干净的未来建筑线框表现。用间距适中、结构连贯的三角地形网格顺着坡度描述山坡，房屋用简单细线体块表示。海湾保留为安静暗色平面，仅有少量长透视线。近处网格边稍亮稍粗，远处更细更暗，保留可辨认的岬角、海滩与山坡聚落。避免覆盖屏幕的均匀网格、随机激光涂鸦、浓重光雾、照片表面纹理或虚构摩天楼。几何形态是视觉转译，不是测绘地形或可提取的三维网格。无坐标轴、坐标值、标签、游戏界面、边框或文字。\n\n以上传照片为唯一视觉参考，保留相机视角、主要轮廓、相对位置与可辨认的主体。简化细节，不添加物件。仅输出成品画作，不输出对比拼图、样机或带框印刷品。保持原图横向宽高比，宽度至少 1400 像素。不含文字、字母、标志、签名或水印；省略照片中原有的标牌文字。"
+    },
+    "instructions": {
+      "en": "Upload a photo and describe the elements to keep. Sample photo: Leticia Golubov, Unsplash License; source and license links are listed below. The example was generated from the English template. The Chinese version is untested. The displayed example does not change as you type.",
+      "zh": "上传照片并描述需要保留的元素。示例摄影：Leticia Golubov，采用 Unsplash License 授权；来源与许可链接见下方。示例使用英文模板生成，中文版本尚未测试。展示的示例不会随输入实时变化。"
+    },
+    "checks": [
+      {
+        "en": "Compare the main silhouette, viewpoint and left/right relationships with the uploaded photo.",
+        "zh": "对照上传照片，检查主要轮廓、视角与左右关系。"
+      },
+      {
+        "en": "Look for a recognizable coast, coherent slopes and readable houses; remove arbitrary grids or coordinates.",
+        "zh": "检查海岸可辨认、坡度连贯、房屋可读，去掉任意网格或坐标文字。"
+      },
+      {
+        "en": "Inspect small features at full size and remove accidental lettering before sharing.",
+        "zh": "分享前放大检查细节，清除意外生成的文字。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "conversion",
+        "comparisonReferenceImageId": "photo",
+        "title": {
+          "en": "Coastal village",
+          "zh": "海湾村庄"
+        },
+        "input": {
+          "en": {
+            "subject": "The descending golden meadow, dark green trees on the left, small beach near the center, hillside village on the right, and broad bay with a distant headland.",
+            "palette": "Cool white and pale cyan mesh lines on deep midnight blue; a small electric-lime shoreline accent."
+          },
+          "zh": {
+            "subject": "向下延伸的金色草坡、左侧深绿树丛、中央附近的小海滩、右侧山坡村庄，以及宽阔海湾与远处岬角。",
+            "palette": "深午夜蓝底上的冷白与浅青网格线，海岸线仅用少量电光青柠色点缀。"
+          }
+        },
+        "output": {
+          "src": "https://ailesson.io/content-assets/sha256/78/6a/786a4f97a52e44c500a5a5ccabb7ccf71e1c179cb62485fdbee47e48eb4a05a9.png",
+          "alt": {
+            "en": "A midnight-blue coastal landscape drawn as cyan triangular wireframe terrain with a small lime shoreline.",
+            "zh": "午夜蓝海岸风景，以青色三角网格表现地形，局部海岸为青柠色。"
+          },
+          "width": 1672,
+          "height": 941,
+          "mimeType": "image/png"
+        },
+        "source": {
+          "src": "https://ailesson.io/content-assets/sha256/78/6a/786a4f97a52e44c500a5a5ccabb7ccf71e1c179cb62485fdbee47e48eb4a05a9.png",
+          "alt": {
+            "en": "A midnight-blue coastal landscape drawn as cyan triangular wireframe terrain with a small lime shoreline.",
+            "zh": "午夜蓝海岸风景，以青色三角网格表现地形，局部海岸为青柠色。"
+          },
+          "width": 1672,
+          "height": 941,
+          "mimeType": "image/png"
+        },
+        "notes": {
+          "en": "The bay and settlement remain recognizable, with a clear lime shoreline accent. The distant terrain is densely traced and dark; mesh geometry is illustrative rather than surveyed.",
+          "zh": "海湾与聚落仍可辨，青柠色海岸点缀清楚。远处地形线较密且暗，网格只是示意，并非测绘结果。"
+        },
+        "generation": {
+          "tool": "Built-in image_gen",
+          "date": "2026-09-07",
+          "promptLanguage": "en",
+          "prompt": "Transform the attached photo into artwork in this style: Digital wireframe landscape.\n\nEssential elements: The descending golden meadow, dark green trees on the left, small beach near the center, hillside village on the right, and broad bay with a distant headland.\nPalette and mood: Cool white and pale cyan mesh lines on deep midnight blue; a small electric-lime shoreline accent.\n\nReconstruct the landscape as a clean futuristic architectural wireframe visualization. Describe hills using a moderately spaced coherent triangular terrain mesh that follows the slopes. Draw houses as simple fine-line volumes; keep the bay as a quiet dark plane with only a few long perspective lines. Make the closest mesh edges slightly brighter and thicker, and distant edges finer and dimmer. Preserve the recognizable headland, beach and hillside settlement. Avoid uniform screen-space grids, random laser scribbles, dense glowing fog, surface photo textures and invented skyscrapers. The geometry is a stylized visual interpretation, not surveyed topography or a recoverable 3D mesh. No axis markers, coordinates, labels, HUD, border or text.\n\nUse the attached photograph as the only visual reference. Preserve its camera viewpoint, major silhouettes, relative positions, and recognizable subject. Simplify fine details without adding objects. Produce only the finished artwork, not a comparison, mockup or framed print. Keep the original landscape aspect ratio, at least 1400 pixels wide. No text, lettering, logos, signature or watermark; omit any signage visible in the photograph.",
+          "referenceImageIds": [
+            "photo"
+          ],
+          "postprocessing": {
+            "en": "The generated PNG is used unchanged for both the source and published artwork; no resizing or retouching.",
+            "zh": "生成 PNG 直接作为生成原图与发布图片共用，未缩放或修绘。"
+          }
+        }
+      }
+    ],
+    "references": [
+      {
+        "id": "photo",
+        "image": {
+          "src": "https://ailesson.io/content-assets/sha256/60/b6/60b6c57cd35766a133979b111ca77b6af62573386e88ae4b6c0e834613a1aad4.png",
+          "alt": {
+            "en": "A coastal bay viewed across a golden field, with wooded slopes, a small beach and hillside houses.",
+            "zh": "从金色田野俯瞰海湾，画面包含林木山坡、小海滩与山坡房屋。"
+          },
+          "width": 1400,
+          "height": 787,
+          "mimeType": "image/png"
+        },
+        "required": true
+      }
+    ],
+    "citations": [
+      {
+        "id": "style-context",
+        "claim": {
+          "en": "This source informed the choice of style family. The reusable prompt and generated example were authored independently; this is not a popularity ranking.",
+          "zh": "此来源用于选择风格类别。通用提示语与生成示例独立制作；不据此宣称喜爱度排名。"
+        },
+        "source": {
+          "title": "Rendering",
+          "publisher": "Blender",
+          "url": "https://www.blender.org/features/rendering/",
+          "reviewedAt": "2026-09-07"
+        }
+      },
+      {
+        "id": "reference-photo",
+        "claim": {
+          "en": "The reference photograph is by Leticia Golubov, provided under Unsplash License.",
+          "zh": "参考照片由 Leticia Golubov 拍摄，以 Unsplash License 提供。"
+        },
+        "source": {
+          "title": "Coastal village nestled in a valley by the sea",
+          "publisher": "Unsplash / Leticia Golubov",
+          "url": "https://unsplash.com/photos/coastal-village-nestled-in-a-valley-by-the-sea-v6mz1osBv0M",
+          "reviewedAt": "2026-09-07"
+        }
+      },
+      {
+        "id": "photo-license",
+        "claim": {
+          "en": "The Unsplash License permits downloading, copying and modifying covered photos, including commercial use, subject to its exclusions. This is a license, not a claim that the photo has no copyright.",
+          "zh": "Unsplash License 允许下载、复制与修改适用照片，包含商业用途，但须遵循排除条款。这是使用许可，并不表示照片没有版权。"
+        },
+        "source": {
+          "title": "Unsplash License",
+          "publisher": "Unsplash",
+          "url": "https://unsplash.com/license",
+          "reviewedAt": "2026-09-07"
+        }
+      }
+    ]
+  },
+  {
+    "id": "iridescent-metal-renders",
+    "alias": "turn-photos-into-iridescent-metal-renders",
+    "name": {
+      "en": "Iridescent metal render",
+      "zh": "虹彩金属渲染"
+    },
+    "summary": {
+      "en": "Recast flowers or objects as pearlescent metal sculptures with soft studio reflections and a quiet pale setting.",
+      "zh": "将花卉或物件转成珍珠虹彩金属雕塑，以柔和工作室反射和浅色环境突出材质。"
+    },
+    "updatedAt": "2026-09-07",
+    "variables": [
+      {
+        "key": "subject",
+        "label": {
+          "en": "Essential elements",
+          "zh": "必须保留的元素"
+        },
+        "placeholder": {
+          "en": "Pink tulips and long green leaves in a clear glass vase slightly left of center, a raffia bow around its neck, the large wicker basket on the right, and softly lit windows behind.",
+          "zh": "画面偏左透明玻璃瓶中的粉色郁金香与修长绿叶、瓶口的拉菲草结、右侧的大藤篮，以及后方透光的窗户。"
+        },
+        "multiline": true
+      },
+      {
+        "key": "palette",
+        "label": {
+          "en": "Palette and mood",
+          "zh": "配色与氛围"
+        },
+        "placeholder": {
+          "en": "Pearlescent silver shifting subtly through lilac, ice blue and pale pink, with a warm white studio environment.",
+          "zh": "珍珠银表面微妙流转淡紫、冰蓝与浅粉，搭配暖白工作室环境。"
+        },
+        "multiline": true
+      }
+    ],
+    "template": {
+      "en": "Transform the attached photo into artwork in this style: Iridescent metal render.\n\nEssential elements: {{subject}}\nPalette and mood: {{palette}}\n\nReinterpret the still life as a sophisticated sculptural 3D product render. Convert the tulip petals and leaves into smooth thin iridescent metal forms, preserving the bouquet silhouette and stems. Keep the vase clear polished glass. Simplify the wicker basket into a matte warm-white sculptural woven volume so it does not compete with the reflective flowers. Simplify the window background into soft architectural planes while preserving the original object arrangement. Use large softbox-like reflections to reveal curvature and restrained thin-film-like color shifts; keep broad quiet silver areas. No liquid melting, mirror chaos, neon glow, oil-slick saturation, faceted crystals, extra flowers or text. This is a raster image with a holographic-material aesthetic, not a hologram or an editable 3D model.\n\nUse the attached photograph as the only visual reference. Preserve its camera viewpoint, major silhouettes, relative positions, and recognizable subject. Simplify fine details without adding objects. Produce only the finished artwork, not a comparison, mockup or framed print. Keep the original landscape aspect ratio, at least 1400 pixels wide. No text, lettering, logos, signature or watermark; omit any signage visible in the photograph.",
+      "zh": "将上传照片转化为虹彩金属渲染。\n\n必须保留的元素：{{subject}}\n配色与氛围：{{palette}}\n\n将静物转译为精致的雕塑式三维产品渲染图。花瓣与叶片变为光滑薄片状虹彩金属，保留花束轮廓与花茎；花瓶保持清透抛光玻璃。藤篮简化为暖白哑光雕塑式编织体积，使其不与反光花朵争夺注意力。窗户背景简化为柔和建筑平面，保留原物件排列。以大型柔光箱般的反射展示曲面，薄膜般色彩变化克制，保留宽阔安静银色区域。无液体融化、混乱镜像、霓虹发光、高饱和油膜、晶体切面、新增花朵或文字。结果是全息材质观感的位图，不是全息影像或可编辑三维模型。\n\n以上传照片为唯一视觉参考，保留相机视角、主要轮廓、相对位置与可辨认的主体。简化细节，不添加物件。仅输出成品画作，不输出对比拼图、样机或带框印刷品。保持原图横向宽高比，宽度至少 1400 像素。不含文字、字母、标志、签名或水印；省略照片中原有的标牌文字。"
+    },
+    "instructions": {
+      "en": "Upload a photo and describe the elements to keep. Sample photo: Jez Timms, CC0 1.0; source and license links are listed below. The example was generated from the English template. The Chinese version is untested. The displayed example does not change as you type.",
+      "zh": "上传照片并描述需要保留的元素。示例摄影：Jez Timms，采用 CC0 1.0 授权；来源与许可链接见下方。示例使用英文模板生成，中文版本尚未测试。展示的示例不会随输入实时变化。"
+    },
+    "checks": [
+      {
+        "en": "Compare the main silhouette, viewpoint and left/right relationships with the uploaded photo.",
+        "zh": "对照上传照片，检查主要轮廓、视角与左右关系。"
+      },
+      {
+        "en": "Check that the main silhouettes survive and the silver areas remain calm instead of becoming saturated rainbow noise.",
+        "zh": "检查主要轮廓保留，银色区域安静，避免变成高饱和彩虹噪点。"
+      },
+      {
+        "en": "Inspect small features at full size and remove accidental lettering before sharing.",
+        "zh": "分享前放大检查细节，清除意外生成的文字。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "conversion",
+        "comparisonReferenceImageId": "photo",
+        "title": {
+          "en": "Tulips by the window",
+          "zh": "窗前郁金香"
+        },
+        "input": {
+          "en": {
+            "subject": "Pink tulips and long green leaves in a clear glass vase slightly left of center, a raffia bow around its neck, the large wicker basket on the right, and softly lit windows behind.",
+            "palette": "Pearlescent silver shifting subtly through lilac, ice blue and pale pink, with a warm white studio environment."
+          },
+          "zh": {
+            "subject": "画面偏左透明玻璃瓶中的粉色郁金香与修长绿叶、瓶口的拉菲草结、右侧的大藤篮，以及后方透光的窗户。",
+            "palette": "珍珠银表面微妙流转淡紫、冰蓝与浅粉，搭配暖白工作室环境。"
+          }
+        },
+        "output": {
+          "src": "https://ailesson.io/content-assets/sha256/3b/e5/3be5ddd6e64ed7809f417bd3217d8ccdeb28b9f65f734e39ea0d335759b49f5f.png",
+          "alt": {
+            "en": "Pearlescent silver tulips with pink-blue reflections in a clear vase beside a pale woven basket.",
+            "zh": "带粉蓝反射的珍珠银郁金香置于透明花瓶中，旁边为浅色编织藤篮。"
+          },
+          "width": 1537,
+          "height": 1023,
+          "mimeType": "image/png"
+        },
+        "source": {
+          "src": "https://ailesson.io/content-assets/sha256/3b/e5/3be5ddd6e64ed7809f417bd3217d8ccdeb28b9f65f734e39ea0d335759b49f5f.png",
+          "alt": {
+            "en": "Pearlescent silver tulips with pink-blue reflections in a clear vase beside a pale woven basket.",
+            "zh": "带粉蓝反射的珍珠银郁金香置于透明花瓶中，旁边为浅色编织藤篮。"
+          },
+          "width": 1537,
+          "height": 1023,
+          "mimeType": "image/png"
+        },
+        "notes": {
+          "en": "The bouquet and vase remain clear, with subtle pink-blue metal reflections and a pale basket. Background plants and small tabletop objects are omitted, and the bow is simplified.",
+          "zh": "花束与花瓶清楚，金属带柔和粉蓝反射，藤篮变为浅色。背景植物和桌面小物被省略，草结也被简化。"
+        },
+        "generation": {
+          "tool": "Built-in image_gen",
+          "date": "2026-09-07",
+          "promptLanguage": "en",
+          "prompt": "Transform the attached photo into artwork in this style: Iridescent metal render.\n\nEssential elements: Pink tulips and long green leaves in a clear glass vase slightly left of center, a raffia bow around its neck, the large wicker basket on the right, and softly lit windows behind.\nPalette and mood: Pearlescent silver shifting subtly through lilac, ice blue and pale pink, with a warm white studio environment.\n\nReinterpret the still life as a sophisticated sculptural 3D product render. Convert the tulip petals and leaves into smooth thin iridescent metal forms, preserving the bouquet silhouette and stems. Keep the vase clear polished glass. Simplify the wicker basket into a matte warm-white sculptural woven volume so it does not compete with the reflective flowers. Simplify the window background into soft architectural planes while preserving the original object arrangement. Use large softbox-like reflections to reveal curvature and restrained thin-film-like color shifts; keep broad quiet silver areas. No liquid melting, mirror chaos, neon glow, oil-slick saturation, faceted crystals, extra flowers or text. This is a raster image with a holographic-material aesthetic, not a hologram or an editable 3D model.\n\nUse the attached photograph as the only visual reference. Preserve its camera viewpoint, major silhouettes, relative positions, and recognizable subject. Simplify fine details without adding objects. Produce only the finished artwork, not a comparison, mockup or framed print. Keep the original landscape aspect ratio, at least 1400 pixels wide. No text, lettering, logos, signature or watermark; omit any signage visible in the photograph.",
+          "referenceImageIds": [
+            "photo"
+          ],
+          "postprocessing": {
+            "en": "The generated PNG is used unchanged for both the source and published artwork; no resizing or retouching.",
+            "zh": "生成 PNG 直接作为生成原图与发布图片共用，未缩放或修绘。"
+          }
+        }
+      }
+    ],
+    "references": [
+      {
+        "id": "photo",
+        "image": {
+          "src": "https://ailesson.io/content-assets/sha256/40/30/4030559193d5c3911193c6375bda8d56b31796aaaedbd1e8c8ded0bd2b567abc.png",
+          "alt": {
+            "en": "Pink tulips in a clear glass vase with a raffia bow beside a wicker basket in front of windows.",
+            "zh": "窗前透明玻璃瓶中的粉色郁金香，瓶口系有拉菲草结，旁边放着藤篮。"
+          },
+          "width": 1280,
+          "height": 854,
+          "mimeType": "image/png"
+        },
+        "required": true
+      }
+    ],
+    "citations": [
+      {
+        "id": "style-context",
+        "claim": {
+          "en": "This source informed the choice of style family. The reusable prompt and generated example were authored independently; this is not a popularity ranking.",
+          "zh": "此来源用于选择风格类别。通用提示语与生成示例独立制作；不据此宣称喜爱度排名。"
+        },
+        "source": {
+          "title": "Learn about 3D effects in Illustrator",
+          "publisher": "Adobe",
+          "url": "https://helpx.adobe.com/illustrator/using/about-3d-effects-illustrator.html",
+          "reviewedAt": "2026-09-07"
+        }
+      },
+      {
+        "id": "reference-photo",
+        "claim": {
+          "en": "The reference photograph is by Jez Timms, provided under CC0 1.0.",
+          "zh": "参考照片由 Jez Timms 拍摄，以 CC0 1.0 提供。"
+        },
+        "source": {
+          "title": "Rustic tulip vase (Unsplash)",
+          "publisher": "Wikimedia Commons / Jez Timms",
+          "url": "https://commons.wikimedia.org/wiki/File:Rustic_tulip_vase_(Unsplash).jpg",
+          "reviewedAt": "2026-09-07"
+        }
+      },
+      {
+        "id": "photo-license",
+        "claim": {
+          "en": "CC0 permits copying and adapting this photograph; the file page records the dedication.",
+          "zh": "CC0 允许复制和改编该照片；文件页记录了相应授权。"
+        },
+        "source": {
+          "title": "CC0 1.0",
+          "publisher": "Creative Commons",
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "reviewedAt": "2026-09-07"
+        }
+      }
+    ]
+  },
+  {
+    "id": "3d-miniature-worlds",
+    "alias": "turn-photos-into-3d-miniature-worlds",
+    "name": {
+      "en": "3D miniature world",
+      "zh": "3D 微缩世界"
+    },
+    "summary": {
+      "en": "Turn a favorite place into a compact 3D-style landscape model with sculpted terrain, glassy water and soft studio light.",
+      "zh": "将喜爱的地点转成紧凑的三维风格景观模型，搭配雕塑地形、玻璃感水体与柔和工作室光线。"
+    },
+    "updatedAt": "2026-09-07",
+    "variables": [
+      {
+        "key": "subject",
+        "label": {
+          "en": "Essential elements",
+          "zh": "必须保留的元素"
+        },
+        "placeholder": {
+          "en": "The red-roof boathouse at the left lakeshore, pine forest, angular mountain peaks, blue lake reflections and low shrubs across the foreground.",
+          "zh": "左侧湖岸的红顶船屋、松林、棱角分明的山峰、蓝色湖面倒影，以及前景低矮灌木。"
+        },
+        "multiline": true
+      },
+      {
+        "key": "palette",
+        "label": {
+          "en": "Palette and mood",
+          "zh": "配色与氛围"
+        },
+        "placeholder": {
+          "en": "Porcelain ivory mountain peaks, muted evergreen trees, a translucent turquoise lake and a small terracotta roof; warm off-white studio backdrop.",
+          "zh": "瓷白山峰、低饱和常绿树、半透明青绿湖水与一点陶土红屋顶，搭配暖灰白工作室背景。"
+        },
+        "multiline": true
+      }
+    ],
+    "template": {
+      "en": "Transform the attached photo into artwork in this style: 3D miniature world.\n\nEssential elements: {{subject}}\nPalette and mood: {{palette}}\n\nTurn the photographed place into a polished miniature 3D landscape model on one thin rounded rectangular terrain base. Keep the boathouse at the left lakeshore, forest behind it and mountain ridges farther back, with the lake opening toward the right foreground. Deliberately reframe from a slightly elevated three-quarter camera so the complete miniature base is visible, while preserving these landmark relationships. Reduce distant scenery into a compact sculpted mountain backdrop on the same base. Use smooth matte ceramic-like terrain, simplified tree volumes, a glassy turquoise water slab with a visible edge and softly beveled architecture. Center the unified model with generous clean studio space around it and soft contact shadows beneath. No floating separate islands, cutaway labels, tiny people, extra buildings, toy packaging, text or excessive depth-of-field blur. Produce a landscape-format image at least 1400 pixels wide. This is a 3D-style concept illustration, not a reconstructable or printable model.\n\nUse the attached photo as the landmark reference. Output only the finished artwork, with no comparison collage, watermark or signage.",
+      "zh": "将上传照片转化为3D 微缩世界。\n\n必须保留的元素：{{subject}}\n配色与氛围：{{palette}}\n\n将照片地点转成放在一块薄圆角矩形地形底座上的精致三维微缩景观。船屋仍在左侧湖岸，森林在其后，山脊位于更远处，湖面朝右前方展开。明确改用略高的四分之三视角，让完整微缩底座可见，同时保留上述景物关系。远景收束为同一底座上的紧凑雕塑山体，地形采用光滑哑光陶瓷感，树木归纳为简化体积，青绿湖水像带可见边缘的玻璃水体，建筑边缘轻微倒角。完整模型居中，四周保留充足干净工作室空间，下方有柔和接触阴影。无分散漂浮小岛、剖面标签、小人、额外建筑、玩具包装、文字或过强景深虚化。输出宽度至少 1400 像素的横向图片。这是三维风格概念插画，不是可复原或打印的模型。\n\n以上传照片作为景物参考。仅输出完整作品，不含对比拼图、水印或标牌文字。"
+    },
+    "instructions": {
+      "en": "Upload a photo and describe the elements to keep. Sample photo: Rafael Peier, Unsplash License; source and license links are listed below. The example was generated from the English template. The Chinese version is untested. The displayed example does not change as you type. The displayed result also received a cleanup edit to simplify forms and remove roof lettering.",
+      "zh": "上传照片并描述需要保留的元素。示例摄影：Rafael Peier，采用 Unsplash License 授权；来源与许可链接见下方。示例使用英文模板生成，中文版本尚未测试。展示的示例不会随输入实时变化。 展示结果还经过一次清理编辑，以简化形体并移除屋顶文字。"
+    },
+    "checks": [
+      {
+        "en": "Compare the left/right relationships of the main landmarks; the camera angle and scale are intentionally changed.",
+        "zh": "对照主要景物的左右关系；相机角度与比例有意改变。"
+      },
+      {
+        "en": "Check the landmark relationships, complete base and clear water edge; avoid disconnected floating pieces or added buildings.",
+        "zh": "检查景物关系、完整底座与清晰水体边缘，避免分散漂浮碎块或新增建筑。"
+      },
+      {
+        "en": "Inspect small features at full size and remove accidental lettering before sharing.",
+        "zh": "分享前放大检查细节，清除意外生成的文字。"
+      }
+    ],
+    "examples": [
+      {
+        "id": "conversion",
+        "comparisonReferenceImageId": "photo",
+        "title": {
+          "en": "Mountain lake",
+          "zh": "山间湖泊"
+        },
+        "input": {
+          "en": {
+            "subject": "The red-roof boathouse at the left lakeshore, pine forest, angular mountain peaks, blue lake reflections and low shrubs across the foreground.",
+            "palette": "Porcelain ivory mountain peaks, muted evergreen trees, a translucent turquoise lake and a small terracotta roof; warm off-white studio backdrop."
+          },
+          "zh": {
+            "subject": "左侧湖岸的红顶船屋、松林、棱角分明的山峰、蓝色湖面倒影，以及前景低矮灌木。",
+            "palette": "瓷白山峰、低饱和常绿树、半透明青绿湖水与一点陶土红屋顶，搭配暖灰白工作室背景。"
+          }
+        },
+        "output": {
+          "src": "https://ailesson.io/content-assets/sha256/8e/ad/8eaddfc7837080402cb0f8111802e4cb64cc4285a1310770110b939ae09a6242.png",
+          "alt": {
+            "en": "A compact 3D-style mountain lake model with turquoise water, ivory mountains, green trees and a terracotta-roof boathouse.",
+            "zh": "紧凑的三维风格山湖模型，含青绿湖水、瓷白山体、绿树和陶土红顶船屋。"
+          },
+          "width": 1528,
+          "height": 1029,
+          "mimeType": "image/png"
+        },
+        "source": {
+          "src": "https://ailesson.io/content-assets/sha256/8e/ad/8eaddfc7837080402cb0f8111802e4cb64cc4285a1310770110b939ae09a6242.png",
+          "alt": {
+            "en": "A compact 3D-style mountain lake model with turquoise water, ivory mountains, green trees and a terracotta-roof boathouse.",
+            "zh": "紧凑的三维风格山湖模型，含青绿湖水、瓷白山体、绿树和陶土红顶船屋。"
+          },
+          "width": 1528,
+          "height": 1029,
+          "mimeType": "image/png"
+        },
+        "notes": {
+          "en": "The scene is deliberately reframed onto a miniature base. A second edit removed roof lettering and simplified the mountains and trees. The house and forest remain recognizable, but scale and distant geography are compressed.",
+          "zh": "场景有意重新取景并收束到微缩底座。第二次编辑去掉屋顶文字，并简化山体与树木。船屋和森林仍可辨，但比例与远处地形被压缩。"
+        },
+        "generation": {
+          "tool": "Built-in image_gen",
+          "date": "2026-09-07",
+          "promptLanguage": "en",
+          "prompt": "Transform the attached photo into artwork in this style: 3D miniature world.\n\nEssential elements: The red-roof boathouse at the left lakeshore, pine forest, angular mountain peaks, blue lake reflections and low shrubs across the foreground.\nPalette and mood: Porcelain ivory mountain peaks, muted evergreen trees, a translucent turquoise lake and a small terracotta roof; warm off-white studio backdrop.\n\nTurn the photographed place into a polished miniature 3D landscape model on one thin rounded rectangular terrain base. Keep the boathouse at the left lakeshore, forest behind it and mountain ridges farther back, with the lake opening toward the right foreground. Deliberately reframe from a slightly elevated three-quarter camera so the complete miniature base is visible, while preserving these landmark relationships. Reduce distant scenery into a compact sculpted mountain backdrop on the same base. Use smooth matte ceramic-like terrain, simplified tree volumes, a glassy turquoise water slab with a visible edge and softly beveled architecture. Center the unified model with generous clean studio space around it and soft contact shadows beneath. No floating separate islands, cutaway labels, tiny people, extra buildings, toy packaging, text or excessive depth-of-field blur. Produce a landscape-format image at least 1400 pixels wide. This is a 3D-style concept illustration, not a reconstructable or printable model.\n\nUse the attached photo as the landmark reference. Output only the finished artwork, with no comparison collage, watermark or signage.",
+          "referenceImageIds": [
+            "photo"
+          ],
+          "postprocessing": {
+            "en": "The generated PNG is used unchanged for both the source and published artwork; no resizing or retouching.",
+            "zh": "生成 PNG 直接作为生成原图与发布图片共用，未缩放或修绘。"
+          },
+          "revisionPrompt": "Refine this miniature landscape into a cleaner contemporary 3D design illustration. Keep the single rounded rectangular base, left-side boathouse, turquoise lake, forest behind the house and mountain backdrop in the same relative positions. Remove ALL writing and pale marks from the red roof, leaving a completely unlettered terracotta roof. Simplify trees into smooth softly rounded cone-like sculptural volumes, reduce mountain crags to broad elegantly beveled geometric planes, and simplify foreground bushes into a few clean clustered forms. Keep porcelain matte terrain and glassy turquoise water. Reduce the entire model slightly within the canvas to leave a little more clean warm-white studio space on every side. No added objects, text, logos or decorative elements. Preserve the landscape aspect ratio."
+        }
+      }
+    ],
+    "references": [
+      {
+        "id": "photo",
+        "image": {
+          "src": "https://ailesson.io/content-assets/sha256/ea/66/ea66fe51fe702cd080905fc1954c0dba73eab85b0489b9b2ac4a5a1ee7c2658c.png",
+          "alt": {
+            "en": "A red-roof boathouse on the left shore of a blue mountain lake, with pine forest and foreground shrubs.",
+            "zh": "蓝色山湖左岸的红顶船屋，周围有松林与前景灌木。"
+          },
+          "width": 1400,
+          "height": 934,
+          "mimeType": "image/png"
+        },
+        "required": true
+      }
+    ],
+    "citations": [
+      {
+        "id": "style-context",
+        "claim": {
+          "en": "This source informed the choice of style family. The reusable prompt and generated example were authored independently; this is not a popularity ranking.",
+          "zh": "此来源用于选择风格类别。通用提示语与生成示例独立制作；不据此宣称喜爱度排名。"
+        },
+        "source": {
+          "title": "3D generator workflows",
+          "publisher": "Adobe",
+          "url": "https://www.adobe.com/products/firefly/features/3d-generator.html",
+          "reviewedAt": "2026-09-07"
+        }
+      },
+      {
+        "id": "reference-photo",
+        "claim": {
+          "en": "The reference photograph is by Rafael Peier, provided under Unsplash License.",
+          "zh": "参考照片由 Rafael Peier 拍摄，以 Unsplash License 提供。"
+        },
+        "source": {
+          "title": "Mountain lake with a boathouse and surrounding forest",
+          "publisher": "Unsplash / Rafael Peier",
+          "url": "https://unsplash.com/photos/mountain-lake-with-a-boathouse-and-surrounding-forest-I_XRy-z8m8k",
+          "reviewedAt": "2026-09-07"
+        }
+      },
+      {
+        "id": "photo-license",
+        "claim": {
+          "en": "The Unsplash License permits downloading, copying and modifying covered photos, including commercial use, subject to its exclusions. This is a license, not a claim that the photo has no copyright.",
+          "zh": "Unsplash License 允许下载、复制与修改适用照片，包含商业用途，但须遵循排除条款。这是使用许可，并不表示照片没有版权。"
+        },
+        "source": {
+          "title": "Unsplash License",
+          "publisher": "Unsplash",
+          "url": "https://unsplash.com/license",
+          "reviewedAt": "2026-09-07"
+        }
+      }
+    ]
+  }
+]
