@@ -24,9 +24,7 @@
 
 ## 示例
 
-| 原图 | 效果图 |
-| :---: | :---: |
-| <a href="https://ailesson.io/content-assets/sha256/f7/74/f77456efd607639a92825d09289328963f260acd3c436972bab509d8405fc57e.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/f7/74/f77456efd607639a92825d09289328963f260acd3c436972bab509d8405fc57e.png" alt="浅色蓬松猫咪在白色窗台上熟睡，肢体与尾巴垂下，右侧有梯子。" width="320"></a> | <a href="https://ailesson.io/content-assets/sha256/24/40/2440784288af45ca4fc718cb5f8112de718b4a08d0e45ae48c8beaebdee377e8.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/24/40/2440784288af45ca4fc718cb5f8112de718b4a08d0e45ae48c8beaebdee377e8.png" alt="奶油色熟睡猫咪，搭配深色漫画轮廓、珊瑚红与青蓝室内色块及局部半调网点。" width="320"></a> |
+<a href="https://ailesson.io/zh/prompts/recipes/turn-photos-into-pop-art-prints"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/24/40/2440784288af45ca4fc718cb5f8112de718b4a08d0e45ae48c8beaebdee377e8.png" alt="奶油色熟睡猫咪，搭配深色漫画轮廓、珊瑚红与青蓝室内色块及局部半调网点。" width="320"></a>
 
 [Unsplash / Bryony Elena](https://unsplash.com/photos/white-cat-on-white-window-3CklzznTHqk) · [Unsplash License](https://unsplash.com/license)
 

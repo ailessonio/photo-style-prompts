@@ -24,9 +24,7 @@ Upload a photo and describe the elements to keep. Sample photo: Bryony Elena, Un
 
 ## Example
 
-| Before | After |
-| :---: | :---: |
-| <a href="https://ailesson.io/content-assets/sha256/f7/74/f77456efd607639a92825d09289328963f260acd3c436972bab509d8405fc57e.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/f7/74/f77456efd607639a92825d09289328963f260acd3c436972bab509d8405fc57e.png" alt="A fluffy pale cat asleep on a white windowsill, with a limb and tail hanging down and a ladder on the right." width="320"></a> | <a href="https://ailesson.io/content-assets/sha256/24/40/2440784288af45ca4fc718cb5f8112de718b4a08d0e45ae48c8beaebdee377e8.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/24/40/2440784288af45ca4fc718cb5f8112de718b4a08d0e45ae48c8beaebdee377e8.png" alt="A cream sleeping cat rendered with dark comic contours, coral and cyan room shapes and selective halftone dots." width="320"></a> |
+<a href="https://ailesson.io/prompts/recipes/turn-photos-into-pop-art-prints"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/24/40/2440784288af45ca4fc718cb5f8112de718b4a08d0e45ae48c8beaebdee377e8.png" alt="A cream sleeping cat rendered with dark comic contours, coral and cyan room shapes and selective halftone dots." width="320"></a>
 
 [Unsplash / Bryony Elena](https://unsplash.com/photos/white-cat-on-white-window-3CklzznTHqk) · [Unsplash License](https://unsplash.com/license)
 

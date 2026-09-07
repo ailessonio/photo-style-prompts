@@ -24,9 +24,7 @@
 
 ## 示例
 
-| 原图 | 效果图 |
-| :---: | :---: |
-| <a href="https://ailesson.io/content-assets/sha256/40/30/4030559193d5c3911193c6375bda8d56b31796aaaedbd1e8c8ded0bd2b567abc.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/40/30/4030559193d5c3911193c6375bda8d56b31796aaaedbd1e8c8ded0bd2b567abc.png" alt="窗前透明玻璃瓶中的粉色郁金香，瓶口系有拉菲草结，旁边放着藤篮。" width="320"></a> | <a href="https://ailesson.io/content-assets/sha256/3b/e5/3be5ddd6e64ed7809f417bd3217d8ccdeb28b9f65f734e39ea0d335759b49f5f.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/3b/e5/3be5ddd6e64ed7809f417bd3217d8ccdeb28b9f65f734e39ea0d335759b49f5f.png" alt="带粉蓝反射的珍珠银郁金香置于透明花瓶中，旁边为浅色编织藤篮。" width="320"></a> |
+<a href="https://ailesson.io/zh/prompts/recipes/turn-photos-into-iridescent-metal-renders"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/3b/e5/3be5ddd6e64ed7809f417bd3217d8ccdeb28b9f65f734e39ea0d335759b49f5f.png" alt="带粉蓝反射的珍珠银郁金香置于透明花瓶中，旁边为浅色编织藤篮。" width="320"></a>
 
 [Wikimedia Commons / Jez Timms](https://commons.wikimedia.org/wiki/File:Rustic_tulip_vase_(Unsplash).jpg) · [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 

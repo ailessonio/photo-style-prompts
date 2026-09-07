@@ -24,9 +24,7 @@
 
 ## 示例
 
-| 原图 | 效果图 |
-| :---: | :---: |
-| <a href="https://ailesson.io/content-assets/sha256/f7/74/f77456efd607639a92825d09289328963f260acd3c436972bab509d8405fc57e.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/f7/74/f77456efd607639a92825d09289328963f260acd3c436972bab509d8405fc57e.png" alt="浅色蓬松猫咪在白色窗台上熟睡，肢体与尾巴垂下，右侧有梯子。" width="320"></a> | <a href="https://ailesson.io/content-assets/sha256/ef/e4/efe415278a1bf9b4eb9d23f60b8afbd2f6e4f4c921f8da5bf23f1ab0de4bf26d.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/ef/e4/efe415278a1bf9b4eb9d23f60b8afbd2f6e4f4c921f8da5bf23f1ab0de4bf26d.png" alt="靛蓝与陶土红双色油毡版画风格的熟睡奶油色猫咪，旁边为窗户与梯子。" width="320"></a> |
+<a href="https://ailesson.io/zh/prompts/recipes/turn-photos-into-two-color-linocuts"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/ef/e4/efe415278a1bf9b4eb9d23f60b8afbd2f6e4f4c921f8da5bf23f1ab0de4bf26d.png" alt="靛蓝与陶土红双色油毡版画风格的熟睡奶油色猫咪，旁边为窗户与梯子。" width="320"></a>
 
 [Unsplash / Bryony Elena](https://unsplash.com/photos/white-cat-on-white-window-3CklzznTHqk) · [Unsplash License](https://unsplash.com/license)
 

@@ -24,9 +24,7 @@
 
 ## 示例
 
-| 原图 | 效果图 |
-| :---: | :---: |
-| <a href="https://ailesson.io/content-assets/sha256/60/b6/60b6c57cd35766a133979b111ca77b6af62573386e88ae4b6c0e834613a1aad4.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/60/b6/60b6c57cd35766a133979b111ca77b6af62573386e88ae4b6c0e834613a1aad4.png" alt="从金色田野俯瞰海湾，画面包含林木山坡、小海滩与山坡房屋。" width="320"></a> | <a href="https://ailesson.io/content-assets/sha256/97/76/9776ea79c20a4905efae2d1428dbf0c3cf90ab94da365b5bdc8c6b295e101249.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/97/76/9776ea79c20a4905efae2d1428dbf0c3cf90ab94da365b5bdc8c6b295e101249.png" alt="金色草坡、绿色山坡、蓝色海湾与山间小屋组成的手绘海岸全景，天空绘有云层。" width="320"></a> |
+<a href="https://ailesson.io/zh/prompts/recipes/turn-photos-into-hand-painted-anime-scenes"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/97/76/9776ea79c20a4905efae2d1428dbf0c3cf90ab94da365b5bdc8c6b295e101249.png" alt="金色草坡、绿色山坡、蓝色海湾与山间小屋组成的手绘海岸全景，天空绘有云层。" width="320"></a>
 
 [Unsplash / Leticia Golubov](https://unsplash.com/photos/coastal-village-nestled-in-a-valley-by-the-sea-v6mz1osBv0M) · [Unsplash License](https://unsplash.com/license)
 

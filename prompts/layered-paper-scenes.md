@@ -24,9 +24,7 @@ Upload a photo and describe the elements to keep. Sample photo: Leticia Golubov,
 
 ## Example
 
-| Before | After |
-| :---: | :---: |
-| <a href="https://ailesson.io/content-assets/sha256/60/b6/60b6c57cd35766a133979b111ca77b6af62573386e88ae4b6c0e834613a1aad4.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/60/b6/60b6c57cd35766a133979b111ca77b6af62573386e88ae4b6c0e834613a1aad4.png" alt="A coastal bay viewed across a golden field, with wooded slopes, a small beach and hillside houses." width="320"></a> | <a href="https://ailesson.io/content-assets/sha256/bc/1e/bc1e864434ee614dfda46fffac8443c6cde578965c41d7d65434561e4a495964.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/bc/1e/bc1e864434ee614dfda46fffac8443c6cde578965c41d7d65434561e4a495964.png" alt="A layered paper coastal panorama with ochre fields, green tree cutouts, turquoise water and small cream houses." width="320"></a> |
+<a href="https://ailesson.io/prompts/recipes/turn-photos-into-layered-paper-scenes"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/bc/1e/bc1e864434ee614dfda46fffac8443c6cde578965c41d7d65434561e4a495964.png" alt="A layered paper coastal panorama with ochre fields, green tree cutouts, turquoise water and small cream houses." width="320"></a>
 
 [Unsplash / Leticia Golubov](https://unsplash.com/photos/coastal-village-nestled-in-a-valley-by-the-sea-v6mz1osBv0M) · [Unsplash License](https://unsplash.com/license)
 

@@ -24,9 +24,7 @@
 
 ## 示例
 
-| 原图 | 效果图 |
-| :---: | :---: |
-| <a href="https://ailesson.io/content-assets/sha256/40/30/4030559193d5c3911193c6375bda8d56b31796aaaedbd1e8c8ded0bd2b567abc.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/40/30/4030559193d5c3911193c6375bda8d56b31796aaaedbd1e8c8ded0bd2b567abc.png" alt="窗前透明玻璃瓶中的粉色郁金香，瓶口系有拉菲草结，旁边放着藤篮。" width="320"></a> | <a href="https://ailesson.io/content-assets/sha256/93/8b/938b7791b1ae0c7ac8fc55b3c387c988fabf0a8bfdf23f476fd158a1ae1c9321.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/93/8b/938b7791b1ae0c7ac8fc55b3c387c988fabf0a8bfdf23f476fd158a1ae1c9321.png" alt="粉色郁金香与藤篮被转译为透光彩色玻璃，搭配绿色叶片和琥珀色玻璃区域。" width="320"></a> |
+<a href="https://ailesson.io/zh/prompts/recipes/turn-photos-into-stained-glass-panels"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/93/8b/938b7791b1ae0c7ac8fc55b3c387c988fabf0a8bfdf23f476fd158a1ae1c9321.png" alt="粉色郁金香与藤篮被转译为透光彩色玻璃，搭配绿色叶片和琥珀色玻璃区域。" width="320"></a>
 
 [Wikimedia Commons / Jez Timms](https://commons.wikimedia.org/wiki/File:Rustic_tulip_vase_(Unsplash).jpg) · [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 

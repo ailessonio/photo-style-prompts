@@ -24,9 +24,7 @@ Upload a photo and describe the elements to keep. Sample photo: Jez Timms, CC0 1
 
 ## Example
 
-| Before | After |
-| :---: | :---: |
-| <a href="https://ailesson.io/content-assets/sha256/40/30/4030559193d5c3911193c6375bda8d56b31796aaaedbd1e8c8ded0bd2b567abc.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/40/30/4030559193d5c3911193c6375bda8d56b31796aaaedbd1e8c8ded0bd2b567abc.png" alt="Pink tulips in a clear glass vase with a raffia bow beside a wicker basket in front of windows." width="320"></a> | <a href="https://ailesson.io/content-assets/sha256/c0/27/c027013d73e6427621a58ecf113675664dfb43aa2f20d8ba7bf146b65a34aa87.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/c0/27/c027013d73e6427621a58ecf113675664dfb43aa2f20d8ba7bf146b65a34aa87.png" alt="A blue-and-white cyanotype-style still life with tulips, a glass vase and a wicker basket." width="320"></a> |
+<a href="https://ailesson.io/prompts/recipes/turn-photos-into-cyanotype-prints"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/c0/27/c027013d73e6427621a58ecf113675664dfb43aa2f20d8ba7bf146b65a34aa87.png" alt="A blue-and-white cyanotype-style still life with tulips, a glass vase and a wicker basket." width="320"></a>
 
 [Wikimedia Commons / Jez Timms](https://commons.wikimedia.org/wiki/File:Rustic_tulip_vase_(Unsplash).jpg) · [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 

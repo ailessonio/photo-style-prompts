@@ -24,9 +24,7 @@ Upload a photo and describe the elements to keep. Sample photo: Rafael Peier, Un
 
 ## Example
 
-| Before | After |
-| :---: | :---: |
-| <a href="https://ailesson.io/content-assets/sha256/ea/66/ea66fe51fe702cd080905fc1954c0dba73eab85b0489b9b2ac4a5a1ee7c2658c.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/ea/66/ea66fe51fe702cd080905fc1954c0dba73eab85b0489b9b2ac4a5a1ee7c2658c.png" alt="A red-roof boathouse on the left shore of a blue mountain lake, with pine forest and foreground shrubs." width="320"></a> | <a href="https://ailesson.io/content-assets/sha256/8e/ad/8eaddfc7837080402cb0f8111802e4cb64cc4285a1310770110b939ae09a6242.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/8e/ad/8eaddfc7837080402cb0f8111802e4cb64cc4285a1310770110b939ae09a6242.png" alt="A compact 3D-style mountain lake model with turquoise water, ivory mountains, green trees and a terracotta-roof boathouse." width="320"></a> |
+<a href="https://ailesson.io/prompts/recipes/turn-photos-into-3d-miniature-worlds"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/8e/ad/8eaddfc7837080402cb0f8111802e4cb64cc4285a1310770110b939ae09a6242.png" alt="A compact 3D-style mountain lake model with turquoise water, ivory mountains, green trees and a terracotta-roof boathouse." width="320"></a>
 
 [Unsplash / Rafael Peier](https://unsplash.com/photos/mountain-lake-with-a-boathouse-and-surrounding-forest-I_XRy-z8m8k) · [Unsplash License](https://unsplash.com/license)
 

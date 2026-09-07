@@ -24,9 +24,7 @@
 
 ## 示例
 
-| 原图 | 效果图 |
-| :---: | :---: |
-| <a href="https://ailesson.io/content-assets/sha256/60/b6/60b6c57cd35766a133979b111ca77b6af62573386e88ae4b6c0e834613a1aad4.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/60/b6/60b6c57cd35766a133979b111ca77b6af62573386e88ae4b6c0e834613a1aad4.png" alt="从金色田野俯瞰海湾，画面包含林木山坡、小海滩与山坡房屋。" width="320"></a> | <a href="https://ailesson.io/content-assets/sha256/bc/1e/bc1e864434ee614dfda46fffac8443c6cde578965c41d7d65434561e4a495964.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/bc/1e/bc1e864434ee614dfda46fffac8443c6cde578965c41d7d65434561e4a495964.png" alt="由赭色田野、绿色剪纸树丛、青绿海面与奶油色小屋组成的层叠纸艺海岸全景。" width="320"></a> |
+<a href="https://ailesson.io/zh/prompts/recipes/turn-photos-into-layered-paper-scenes"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/bc/1e/bc1e864434ee614dfda46fffac8443c6cde578965c41d7d65434561e4a495964.png" alt="由赭色田野、绿色剪纸树丛、青绿海面与奶油色小屋组成的层叠纸艺海岸全景。" width="320"></a>
 
 [Unsplash / Leticia Golubov](https://unsplash.com/photos/coastal-village-nestled-in-a-valley-by-the-sea-v6mz1osBv0M) · [Unsplash License](https://unsplash.com/license)
 

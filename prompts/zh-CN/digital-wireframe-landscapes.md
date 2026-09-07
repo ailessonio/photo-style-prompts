@@ -24,9 +24,7 @@
 
 ## 示例
 
-| 原图 | 效果图 |
-| :---: | :---: |
-| <a href="https://ailesson.io/content-assets/sha256/60/b6/60b6c57cd35766a133979b111ca77b6af62573386e88ae4b6c0e834613a1aad4.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/60/b6/60b6c57cd35766a133979b111ca77b6af62573386e88ae4b6c0e834613a1aad4.png" alt="从金色田野俯瞰海湾，画面包含林木山坡、小海滩与山坡房屋。" width="320"></a> | <a href="https://ailesson.io/content-assets/sha256/78/6a/786a4f97a52e44c500a5a5ccabb7ccf71e1c179cb62485fdbee47e48eb4a05a9.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/78/6a/786a4f97a52e44c500a5a5ccabb7ccf71e1c179cb62485fdbee47e48eb4a05a9.png" alt="午夜蓝海岸风景，以青色三角网格表现地形，局部海岸为青柠色。" width="320"></a> |
+<a href="https://ailesson.io/zh/prompts/recipes/turn-photos-into-digital-wireframe-landscapes"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/78/6a/786a4f97a52e44c500a5a5ccabb7ccf71e1c179cb62485fdbee47e48eb4a05a9.png" alt="午夜蓝海岸风景，以青色三角网格表现地形，局部海岸为青柠色。" width="320"></a>
 
 [Unsplash / Leticia Golubov](https://unsplash.com/photos/coastal-village-nestled-in-a-valley-by-the-sea-v6mz1osBv0M) · [Unsplash License](https://unsplash.com/license)
 

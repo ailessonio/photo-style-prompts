@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the photo-to-art gallery and individual prompts from shared data."""
+"""Generate the photo-to-art thumbnail gallery and individual prompts from shared data."""
 import html
 import json
 from pathlib import Path
@@ -8,9 +8,9 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = json.loads((ROOT / 'data/prompts.json').read_text())
 
 
-def image_link(image, lang, width=320):
+def image_link(image, lang, destination, width=240):
     thumbnail = image["src"].replace("https://ailesson.io/", "https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/", 1)
-    return f'<a href="{image["src"]}"><img src="{thumbnail}" alt="{html.escape(image["alt"][lang], quote=True)}" width="{width}"></a>'
+    return f'<a href="{destination}"><img src="{thumbnail}" alt="{html.escape(image["alt"][lang], quote=True)}" width="{width}"></a>'
 
 
 def photo_credit(r, lang):
@@ -31,8 +31,8 @@ def render(lang):
     lines = ['<h1 align="center">' + ('Photo Style Prompts · 照片风格转换提示词' if zh else 'Photo Style Prompts') + '</h1>', '',
         '<p align="center">' + ('把照片变成艺术画。对照效果，选择风格，复制提示词。' if zh else 'Turn photos into art. Compare the results, choose a style, copy the prompt.') + '</p>', '',
         f'<p align="center"><a href="README.md">English</a> · <a href="README.zh-CN.md">简体中文</a> · <a href="{base}/prompts/types/image">AILesson</a> · <a href="LICENSE">MIT License</a></p>', '',
-        ('使用可复用的 AI 图片编辑提示词，将照片转换为水彩、动画场景、油画、素描、像素画与更多风格。每个示例均展示实际使用的参考图与生成效果，并链接至 [AILesson](https://ailesson.io/zh) 完整配方。' if zh else
-         'Reusable AI image-editing prompts for photo-to-art transformations: watercolor, anime scenes, oil paintings, pencil sketches, pixel art, and more. Every example pairs the actual reference image with its generated result and links to the full recipe on [AILesson](https://ailesson.io).'), '',
+        ('使用可复用的 AI 图片编辑提示词，将照片转换为水彩、动画场景、油画、素描、像素画与更多风格。浏览风格效果，点击预览图进入 [AILesson](https://ailesson.io/zh) 完整配方。' if zh else
+         'Reusable AI image-editing prompts for photo-to-art transformations: watercolor, anime scenes, oil paintings, pencil sketches, pixel art, and more. Browse generated examples and follow each preview to the full recipe on [AILesson](https://ailesson.io).'), '',
         '## 快速开始' if zh else '## Quick start', '',
         ('1. 在下方图库中选择一种风格，展开提示词。\n2. 将自己的照片上传到支持参考图的 AI 图片生成或编辑工具。\n3. 填写模板中的变量，说明需要保留的主体、构图与配色。\n4. 运行提示词，再对照原图检查视角、位置关系、轮廓及文字。' if zh else
          '1. Choose a style in the gallery and expand its prompt.\n2. Upload your photo to an AI image-generation or editing tool that accepts reference images.\n3. Fill in the template variables with the subject, composition, and palette you want to preserve.\n4. Run the prompt, then compare the viewpoint, spatial relationships, silhouettes, and any lettering with your original.'), '',
@@ -40,14 +40,18 @@ def render(lang):
          'Most templates use `{{subject}}` and `{{palette}}`. The watercolor travel print uses `{{scene}}`, `{{palette}}`, and `{{caption}}`; set `caption` to `NONE` for no lettering. Individual prompt files include variable guidance and example inputs.'), '',
         ('示例由英文提示词生成；中文模板尚未单独验证。它们展示真实生成结果，但不保证每次重复运行得到同样的图像。' if zh else
          'Examples were generated with English prompts; Chinese templates have not been independently tested. These are recorded outputs, not guarantees of identical results on a new run.'), '',
-        '## 风格图库' if zh else '## Before and after', '',
-        ('点击图片查看完整尺寸，点击风格名跳转到提示词。图片保留原始比例；第一张水彩参考图是 AI 生成的虚构场景，其余照片的署名见 [图片来源](IMAGE_CREDITS.md)。' if zh else
-         'Open an image at full size or select a style name to jump to its prompt. Images retain their aspect ratios. The watercolor reference is an AI-generated fictional scene; other photo credits are listed in [IMAGE_CREDITS.md](IMAGE_CREDITS.md).'), '',
-        '| 风格 | 原图 | 效果图 |' if zh else '| Style | Before | After |', '| :--- | :---: | :---: |']
+        '## 风格图库' if zh else '## Style gallery', '',
+        ('点击效果图，在 AILesson 查看完整配方；点击风格名，跳转到本页提示词。' if zh else
+         'Select a preview to explore the full recipe on AILesson, or select a style name to jump to its prompt below.'), '',
+        '| | | |', '| :---: | :---: | :---: |']
+    cards = []
     for r in DATA:
         for e in r['examples']:
-            before, after = example_pair(r, e)
-            lines.append(f'| **[{r["name"][lang]}](#{r["id"]})** | {image_link(before,lang)} | {image_link(after,lang)} |')
+            destination = f'{base}/prompts/recipes/{r["alias"]}'
+            cards.append(f'**[{r["name"][lang]}](#{r["id"]})**<br><br>{image_link(e["output"],lang,destination)}')
+    for start in range(0,len(cards),3):
+        row = cards[start:start+3]
+        lines.append('| ' + ' | '.join(row + [''] * (3-len(row))) + ' |')
     lines += ['', '## 提示词' if zh else '## Prompts', '']
     for r in DATA:
         lines += [f'<a id="{r["id"]}"></a>', '', f'### {r["name"][lang]}', '', r['summary'][lang], '',
@@ -100,8 +104,8 @@ def outputs():
             lines += ['', '## 提示词' if zh else '## Prompt', '', '```text', r['template'][lang], '```', '', r['instructions'][lang], '',
                       '## 示例' if zh else '## Example', '']
             for e in r['examples']:
-                before,after=example_pair(r,e)
-                lines += ['| 原图 | 效果图 |' if zh else '| Before | After |', '| :---: | :---: |', f'| {image_link(before,lang)} | {image_link(after,lang)} |', '', photo_credit(r,lang), '']
+                destination='https://ailesson.io'+('/zh' if zh else '')+f'/prompts/recipes/{r["alias"]}'
+                lines += [image_link(e['output'],lang,destination,320), '', photo_credit(r,lang), '']
                 lines += [f'- `{key}`: {value}' for key,value in e['input'][lang].items()]
                 lines += ['', e['notes'][lang], '']
             lines += ['## 检查结果' if zh else '## Check the result', '']

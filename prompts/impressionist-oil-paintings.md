@@ -24,9 +24,7 @@ Upload a photo and describe the elements to keep. Sample photo: Jez Timms, CC0 1
 
 ## Example
 
-| Before | After |
-| :---: | :---: |
-| <a href="https://ailesson.io/content-assets/sha256/40/30/4030559193d5c3911193c6375bda8d56b31796aaaedbd1e8c8ded0bd2b567abc.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/40/30/4030559193d5c3911193c6375bda8d56b31796aaaedbd1e8c8ded0bd2b567abc.png" alt="Pink tulips in a clear glass vase with a raffia bow beside a wicker basket in front of windows." width="320"></a> | <a href="https://ailesson.io/content-assets/sha256/90/9b/909be6a851abed4a5a858956c1e2abeca519a8de1d46624ba50dd9d6d3c5da85.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/90/9b/909be6a851abed4a5a858956c1e2abeca519a8de1d46624ba50dd9d6d3c5da85.png" alt="An oil-painted still life of pink tulips in a glass vase beside a wicker basket, with textured strokes and warm window light." width="320"></a> |
+<a href="https://ailesson.io/prompts/recipes/turn-photos-into-impressionist-oil-paintings"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/90/9b/909be6a851abed4a5a858956c1e2abeca519a8de1d46624ba50dd9d6d3c5da85.png" alt="An oil-painted still life of pink tulips in a glass vase beside a wicker basket, with textured strokes and warm window light." width="320"></a>
 
 [Wikimedia Commons / Jez Timms](https://commons.wikimedia.org/wiki/File:Rustic_tulip_vase_(Unsplash).jpg) · [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 

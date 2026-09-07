@@ -24,9 +24,7 @@
 
 ## 示例
 
-| 原图 | 效果图 |
-| :---: | :---: |
-| <a href="https://ailesson.io/content-assets/sha256/ea/66/ea66fe51fe702cd080905fc1954c0dba73eab85b0489b9b2ac4a5a1ee7c2658c.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/ea/66/ea66fe51fe702cd080905fc1954c0dba73eab85b0489b9b2ac4a5a1ee7c2658c.png" alt="蓝色山湖左岸的红顶船屋，周围有松林与前景灌木。" width="320"></a> | <a href="https://ailesson.io/content-assets/sha256/a6/17/a6178f488396fb2297a3b440e581581b3197ac30460f2cce4941e3bb8affd20d.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/a6/17/a6178f488396fb2297a3b440e581581b3197ac30460f2cce4941e3bb8affd20d.png" alt="左侧有红顶船屋、深色松树与金色前景灌木的像素山湖风景。" width="320"></a> |
+<a href="https://ailesson.io/zh/prompts/recipes/turn-photos-into-pixel-art-scenes"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/a6/17/a6178f488396fb2297a3b440e581581b3197ac30460f2cce4941e3bb8affd20d.png" alt="左侧有红顶船屋、深色松树与金色前景灌木的像素山湖风景。" width="320"></a>
 
 [Unsplash / Rafael Peier](https://unsplash.com/photos/mountain-lake-with-a-boathouse-and-surrounding-forest-I_XRy-z8m8k) · [Unsplash License](https://unsplash.com/license)
 

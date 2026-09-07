@@ -26,9 +26,7 @@ Upload a scene photo and fill in the variables. The included reference is an AI-
 
 ## Example
 
-| Before | After |
-| :---: | :---: |
-| <a href="https://ailesson.io/content-assets/sha256/f3/56/f35677c8ff98057e3afbcafd4339e1e882dd4cc29bf068fa079a2f8c58bbbe4b.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/f3/56/f35677c8ff98057e3afbcafd4339e1e882dd4cc29bf068fa079a2f8c58bbbe4b.png" alt="AI-generated fictional photograph of a lakeside boathouse, jetty and snow-capped mountain at blue hour." width="320"></a> | <a href="https://ailesson.io/content-assets/sha256/01/5d/015dc54d62ec2fe26f45b9dc60ceeed65fbd130c0099c57542d6c38750ff8586.png"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/01/5d/015dc54d62ec2fe26f45b9dc60ceeed65fbd130c0099c57542d6c38750ff8586.png" alt="A small blue-gray watercolor lake scene with a mountain on the left and a warmly lit boathouse on the right, surrounded by wide ivory paper margins." width="320"></a> |
+<a href="https://ailesson.io/prompts/recipes/turn-photos-into-watercolor-travel-prints"><img src="https://ailesson.io/cdn-cgi/image/width=640,fit=scale-down,quality=82,format=auto,metadata=none/content-assets/sha256/01/5d/015dc54d62ec2fe26f45b9dc60ceeed65fbd130c0099c57542d6c38750ff8586.png" alt="A small blue-gray watercolor lake scene with a mountain on the left and a warmly lit boathouse on the right, surrounded by wide ivory paper margins." width="320"></a>
 
 AILesson · AI-generated fictional reference photo
 

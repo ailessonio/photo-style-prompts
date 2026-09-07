@@ -40,6 +40,10 @@ for r in DATA:
     images(r)
 for path, expected in outputs():
     assert path.read_text() == expected, f'Rebuild {path}'
+    for href, src in re.findall(r'<a href="([^"]+)"><img src="([^"]+)"', expected):
+        assert re.fullmatch(r'https://ailesson.io/(?:zh/)?prompts/recipes/turn-photos-into-[a-z0-9-]+', href), href
+        assert '/cdn-cgi/image/width=640,' in src, src
+        urls.add(href)
     urls.update(re.findall(r'<img src="([^"]+)"', expected))
     for target in re.findall(r'\]\(([^)]+)\)', expected):
         if not target.startswith(('https:', '#')):
